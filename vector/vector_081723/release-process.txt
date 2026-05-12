@@ -1,0 +1,72 @@
+Tower - git GUI that AA uses
+
+--------
+
+Release document
+
+- do release:
+
+Remember on the portal you'll have to edit these 3 files and add a new commit to the release branch:
+public/scripts/app.js <-- do a find/replace for 1.127.0 with 1.128.0
+public/index.html     <-- do a find/replace for v=1.127.0 with v=1.128.0
+public/version.json   <-- do a find/replace for 1.127.0 with 1.128.0
+(edited)
+
+tag API release
+tag portal release
+
+app.js        /public/scripts/app.js
+index.html    /public/index.html
+version.json  /public/version.json
+package.json  /package.json
+
+update k8s-
+
+when releasing
+make sure to push tags!!!
+
+git tag -a 1.135.0 -m "See Jira portal-release-1.135.0 for description"
+
+https://argocd-2.mend.com/applications/mend-portal?resource=
+https://argocd-2.mend.com/applications/mend-api?resource=
+
+https://mendfamily.atlassian.net/wiki/spaces/MEND/pages/2583461913/MEND-PROD
+
+/k8s-webapp-manifests/mend-api/kustomize/overlays/mend-prod
+/k8s-webapp-manifests/mend-portal/kustomize/overlays/mend-prod
+
+-----
+
+OutOfSync
+
+clear load-balancer cache
+gcloud compute url-maps invalidate-cdn-cache webapp-lb-map --path "/*" --project "mend-prod"
+
+----
+
+Post release checklist
+
+Plan for tomorrow
+x post in upcoming-releases channel
+x move invite to tomorrow
+x undo migration that updated disableds
+
+
+update ignore usersOrgsInformation ui
+inner join users u on u.id=ui.userId
+set u.email=concat(u.email, '.disabled')
+where ui.disabled=1 and u.email not like '%.disabled';
+
+update ignore usersSnapshot uss
+inner join usersOrgsInformation ui
+on ui.userId=uss.id and ui.orgId=uss.orgId
+and ui.disabled=1
+inner join users u on u.id=ui.userId
+set uss.email=u.email
+where ui.disabled=1;
+
+---
+
+select count(*) from exceptions e0 inner join exceptions e1 on e0.`unique`=e1.`unique` and e0.id!=e1.id
+where e0.created between DATE_SUB(NOW(), INTERVAL 15 WEEK) and DATE_SUB(NOW(), INTERVAL 14 WEEK)
+AND e1.created  between DATE_SUB(NOW(), INTERVAL 15 WEEK) and DATE_SUB(NOW(), INTERVAL 14 WEEK);

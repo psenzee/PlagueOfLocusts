@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8FF5BD9D-5D69-4999-A663-A7CECA5EFA9D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "318C660E-9A4B-4607-BE6E-CCDC1E25110D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sv0/assembly.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "assemble(ti, p)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "318C660E-9A4B-4607-BE6E-CCDC1E25110D - 27e828509dc05940"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "assembler::assemble(token_iterator&lt;char const*&gt;&amp;, program&amp;)"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembly.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  uuid = "318C660E-9A4B-4607-BE6E-CCDC1E25110D - 27e828509dc05923"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "assembler::assemble(token_iterator&lt;char const*&gt;&amp;, program&amp;)"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembly.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  uuid = "318C660E-9A4B-4607-BE6E-CCDC1E25110D - 27e828509dc05902"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "assembler::assemble(token_iterator&lt;char const*&gt;&amp;, program&amp;)"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembly.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  uuid = "318C660E-9A4B-4607-BE6E-CCDC1E25110D - 27e828509dc04c5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "assembler::assemble(token_iterator&lt;char const*&gt;&amp;, program&amp;)"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembly.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85F1EE8D-8A6A-43F4-8B2C-7BE7010AD0D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sv0/assembly.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "test_assembler()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "85F1EE8D-8A6A-43F4-8B2C-7BE7010AD0D1 - ab63530b87fd3ab8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "test_assembler()"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembly.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "363"
+                  endingLineNumber = "363"
+                  offsetFromSymbolStart = "198">
+               </Location>
+               <Location
+                  uuid = "85F1EE8D-8A6A-43F4-8B2C-7BE7010AD0D1 - ab63530b87fd3a59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "test_assembler()"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembly.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "364"
+                  endingLineNumber = "364"
+                  offsetFromSymbolStart = "198">
+               </Location>
+               <Location
+                  uuid = "85F1EE8D-8A6A-43F4-8B2C-7BE7010AD0D1 - ab63530b87fd3a3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "test_assembler()"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembly.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "367"
+                  endingLineNumber = "367"
+                  offsetFromSymbolStart = "207">
+               </Location>
+               <Location
+                  uuid = "85F1EE8D-8A6A-43F4-8B2C-7BE7010AD0D1 - ab63530b87fd077b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "test_assembler()"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembly.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "207">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A807938-93AB-448C-B593-A4BFC85B4D86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sv0/assembler/numeric.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "numeric::print_hex(os, size)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2A807938-93AB-448C-B593-A4BFC85B4D86 - 43f2879d52f58c73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "numeric::print(std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt;&gt;&amp;, unsigned long) const"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembler/numeric.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  uuid = "2A807938-93AB-448C-B593-A4BFC85B4D86 - 4812bb372b8bd078"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "numeric::print_hex(std::__1::basic_ostream&lt;char, std::__1::char_traits&lt;char&gt;&gt;&amp;, unsigned long) const"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembler/numeric.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "62">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "580C17FF-8988-4631-9166-F1C38680198E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sv0/assembler/assembler.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "assembler::_assemble_one(ti, os)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "580C17FF-8988-4631-9166-F1C38680198E - cb90281924eddb74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "assembler::_assemble_one(token_iterator&lt;char const*&gt;&amp;, code_stream&amp;)"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembler/assembler.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "153">
+               </Location>
+               <Location
+                  uuid = "580C17FF-8988-4631-9166-F1C38680198E - cb90281924eddb32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "assembler::_assemble_one(token_iterator&lt;char const*&gt;&amp;, code_stream&amp;)"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembler/assembler.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "153">
+               </Location>
+               <Location
+                  uuid = "580C17FF-8988-4631-9166-F1C38680198E - cb90281924eddb53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "assembler::_assemble_one(token_iterator&lt;char const*&gt;&amp;, code_stream&amp;)"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembler/assembler.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137"
+                  offsetFromSymbolStart = "153">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "692AE368-C9F0-4821-B1D2-E97212EFCB06"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sv0/assembler/assembler.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "assembler::_assemble_const_id(t, os)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "692AE368-C9F0-4821-B1D2-E97212EFCB06 - a971cfe2f6863758"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "assembler::_assemble_const_id(token const&amp;, code_stream&amp;)"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembler/assembler.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "692AE368-C9F0-4821-B1D2-E97212EFCB06 - a971cfe2f686373f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "assembler::_assemble_const_id(token const&amp;, code_stream&amp;)"
+                  moduleName = "sv0"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paul/repo_p/sv0/sv0/assembler/assembler.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

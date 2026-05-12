@@ -1,0 +1,301 @@
+[1:1024] times -- fast 0.000s (0.5ms 484μs) slow 0.671s (671.5ms 671487μs)
+[1:1024] average Δ inf magnitude 2270.0 0s 749/1000 dcount 364.3 ccount 365.1
+[2:1024] times -- fast 0.002s (1.7ms 1694μs) slow 0.671s (671.5ms 671487μs)
+[2:1024] average Δ 1.3 magnitude 2270.0 0s 941/1000 dcount 1407.5 ccount 1462.9
+[3:1024] times -- fast 0.003s (3.5ms 3480μs) slow 0.671s (671.5ms 671487μs)
+[3:1024] average Δ 0.1 magnitude 2270.0 0s 985/1000 dcount 2818.5 ccount 3175.4
+[4:1024] times -- fast 0.005s (5.3ms 5315μs) slow 0.671s (671.5ms 671487μs)
+[4:1024] average Δ 0.1 magnitude 2270.0 0s 994/1000 dcount 4141.5 ccount 5026.4
+[5:1024] times -- fast 0.007s (6.8ms 6793μs) slow 0.671s (671.5ms 671487μs)
+[5:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5251.8 ccount 6802.8
+[6:1024] times -- fast 0.008s (7.9ms 7854μs) slow 0.671s (671.5ms 671487μs)
+[6:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6092.2 ccount 8385.9
+[7:1024] times -- fast 0.009s (8.9ms 8937μs) slow 0.671s (671.5ms 671487μs)
+[7:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6763.6 ccount 9859.7
+[8:1024] times -- fast 0.010s (9.8ms 9768μs) slow 0.671s (671.5ms 671487μs)
+[8:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7325.0 ccount 11281.2
+[9:1024] times -- fast 0.011s (11.3ms 11255μs) slow 0.671s (671.5ms 671487μs)
+[9:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7790.1 ccount 12640.1
+[10:1024] times -- fast 0.013s (13.3ms 13286μs) slow 0.671s (671.5ms 671487μs)
+[10:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8165.9 ccount 13933.2
+[11:1024] times -- fast 0.016s (15.5ms 15514μs) slow 0.671s (671.5ms 671487μs)
+[11:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8438.6 ccount 15130.2
+[12:1024] times -- fast 0.014s (13.7ms 13739μs) slow 0.671s (671.5ms 671487μs)
+[12:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8594.2 ccount 16202.5
+[13:1024] times -- fast 0.014s (13.5ms 13535μs) slow 0.671s (671.5ms 671487μs)
+[13:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8624.5 ccount 17127.6
+[14:1024] times -- fast 0.015s (15.3ms 15265μs) slow 0.671s (671.5ms 671487μs)
+[14:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8530.1 ccount 17894.5
+[15:1024] times -- fast 0.015s (14.9ms 14853μs) slow 0.671s (671.5ms 671487μs)
+[15:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8326.3 ccount 18507.7
+[16:1024] times -- fast 0.015s (14.8ms 14839μs) slow 0.671s (671.5ms 671487μs)
+[16:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8033.5 ccount 18978.4
+[17:1024] times -- fast 0.016s (15.7ms 15666μs) slow 0.671s (671.5ms 671487μs)
+[17:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7672.1 ccount 19329.3
+[18:1024] times -- fast 0.014s (13.9ms 13873μs) slow 0.671s (671.5ms 671487μs)
+[18:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7263.0 ccount 19582.6
+[19:1024] times -- fast 0.015s (15.2ms 15160μs) slow 0.671s (671.5ms 671487μs)
+[19:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6826.0 ccount 19759.7
+[20:1024] times -- fast 0.014s (14.2ms 14221μs) slow 0.671s (671.5ms 671487μs)
+[20:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6371.4 ccount 19879.0
+[21:1024] times -- fast 0.014s (13.9ms 13882μs) slow 0.671s (671.5ms 671487μs)
+[21:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5912.5 ccount 19957.7
+[22:1024] times -- fast 0.014s (13.8ms 13835μs) slow 0.671s (671.5ms 671487μs)
+[22:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5458.5 ccount 20007.9
+[23:1024] times -- fast 0.014s (13.5ms 13510μs) slow 0.671s (671.5ms 671487μs)
+[23:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5015.6 ccount 20039.5
+[24:1024] times -- fast 0.012s (11.7ms 11682μs) slow 0.671s (671.5ms 671487μs)
+[24:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 4588.6 ccount 20058.6
+
+---- fast math = on
+
+[1:1024] times -- fast 0.000s (0.5ms 481μs) slow 0.653s (652.7ms 652668μs)
+[1:1024] average Δ inf magnitude 2270.0 0s 749/1000 dcount 364.3 ccount 365.1
+[2:1024] times -- fast 0.002s (1.7ms 1680μs) slow 0.653s (652.7ms 652668μs)
+[2:1024] average Δ 1.3 magnitude 2270.0 0s 941/1000 dcount 1407.5 ccount 1462.9
+[3:1024] times -- fast 0.003s (3.4ms 3421μs) slow 0.653s (652.7ms 652668μs)
+[3:1024] average Δ 0.1 magnitude 2270.0 0s 985/1000 dcount 2818.5 ccount 3175.4
+[4:1024] times -- fast 0.005s (5.1ms 5101μs) slow 0.653s (652.7ms 652668μs)
+[4:1024] average Δ 0.1 magnitude 2270.0 0s 994/1000 dcount 4141.5 ccount 5026.4
+[5:1024] times -- fast 0.007s (6.5ms 6546μs) slow 0.653s (652.7ms 652668μs)
+[5:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5251.8 ccount 6802.8
+[6:1024] times -- fast 0.008s (7.8ms 7816μs) slow 0.653s (652.7ms 652668μs)
+[6:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6092.2 ccount 8385.9
+[7:1024] times -- fast 0.009s (8.8ms 8807μs) slow 0.653s (652.7ms 652668μs)
+[7:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6763.6 ccount 9859.7
+[8:1024] times -- fast 0.010s (9.7ms 9667μs) slow 0.653s (652.7ms 652668μs)
+[8:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7325.0 ccount 11281.2
+[9:1024] times -- fast 0.011s (10.9ms 10904μs) slow 0.653s (652.7ms 652668μs)
+[9:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7790.0 ccount 12640.1
+[10:1024] times -- fast 0.012s (11.7ms 11705μs) slow 0.653s (652.7ms 652668μs)
+[10:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8165.9 ccount 13933.1
+[11:1024] times -- fast 0.012s (12.3ms 12343μs) slow 0.653s (652.7ms 652668μs)
+[11:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8438.6 ccount 15130.2
+[12:1024] times -- fast 0.013s (13.0ms 12961μs) slow 0.653s (652.7ms 652668μs)
+[12:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8594.1 ccount 16202.5
+[13:1024] times -- fast 0.014s (13.6ms 13551μs) slow 0.653s (652.7ms 652668μs)
+[13:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8624.4 ccount 17127.6
+[14:1024] times -- fast 0.014s (13.6ms 13622μs) slow 0.653s (652.7ms 652668μs)
+[14:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8530.1 ccount 17894.5
+[15:1024] times -- fast 0.015s (15.5ms 15484μs) slow 0.653s (652.7ms 652668μs)
+[15:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8326.3 ccount 18507.7
+[16:1024] times -- fast 0.014s (13.5ms 13526μs) slow 0.653s (652.7ms 652668μs)
+[16:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8033.4 ccount 18978.4
+[17:1024] times -- fast 0.014s (13.6ms 13622μs) slow 0.653s (652.7ms 652668μs)
+[17:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7672.1 ccount 19329.3
+[18:1024] times -- fast 0.015s (15.0ms 14971μs) slow 0.653s (652.7ms 652668μs)
+[18:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7263.0 ccount 19582.6
+[19:1024] times -- fast 0.013s (13.3ms 13258μs) slow 0.653s (652.7ms 652668μs)
+[19:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6826.0 ccount 19759.7
+[20:1024] times -- fast 0.013s (12.6ms 12552μs) slow 0.653s (652.7ms 652668μs)
+[20:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6371.4 ccount 19879.0
+[21:1024] times -- fast 0.013s (13.3ms 13280μs) slow 0.653s (652.7ms 652668μs)
+[21:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5912.5 ccount 19957.7
+[22:1024] times -- fast 0.012s (12.3ms 12305μs) slow 0.653s (652.7ms 652668μs)
+[22:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5458.5 ccount 20007.9
+[23:1024] times -- fast 0.013s (12.6ms 12578μs) slow 0.653s (652.7ms 652668μs)
+[23:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5015.6 ccount 20039.5
+[24:1024] times -- fast 0.013s (13.3ms 13329μs) slow 0.653s (652.7ms 652668μs)
+[24:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 4588.6 ccount 20058.7
+
+---- r < 0 ? -r : r instead of abs() -- slower?
+---- but then I also did: bool _(T a, U b) { return (a == b || a == -b); } }
+[1:1024] times -- fast 0.001s (0.6ms 621μs) slow 0.635s (635.4ms 635426μs)
+[1:1024] average Δ inf magnitude 2270.0 0s 749/1000 dcount 364.3 ccount 365.1
+[2:1024] times -- fast 0.002s (2.0ms 1973μs) slow 0.635s (635.4ms 635426μs)
+[2:1024] average Δ 1.3 magnitude 2270.0 0s 941/1000 dcount 1407.5 ccount 1462.9
+[3:1024] times -- fast 0.003s (3.4ms 3431μs) slow 0.635s (635.4ms 635426μs)
+[3:1024] average Δ 0.1 magnitude 2270.0 0s 985/1000 dcount 2818.5 ccount 3175.4
+[4:1024] times -- fast 0.005s (5.1ms 5093μs) slow 0.635s (635.4ms 635426μs)
+[4:1024] average Δ 0.1 magnitude 2270.0 0s 994/1000 dcount 4141.5 ccount 5026.4
+[5:1024] times -- fast 0.007s (7.5ms 7485μs) slow 0.635s (635.4ms 635426μs)
+[5:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5251.8 ccount 6802.8
+[6:1024] times -- fast 0.008s (7.9ms 7921μs) slow 0.635s (635.4ms 635426μs)
+[6:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6092.2 ccount 8385.9
+[7:1024] times -- fast 0.009s (9.1ms 9103μs) slow 0.635s (635.4ms 635426μs)
+[7:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6763.6 ccount 9859.7
+[8:1024] times -- fast 0.010s (10.2ms 10174μs) slow 0.635s (635.4ms 635426μs)
+[8:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7325.0 ccount 11281.2
+[9:1024] times -- fast 0.011s (11.0ms 10968μs) slow 0.635s (635.4ms 635426μs)
+[9:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7790.0 ccount 12640.1
+[10:1024] times -- fast 0.012s (12.0ms 11963μs) slow 0.635s (635.4ms 635426μs)
+[10:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8165.9 ccount 13933.1
+[11:1024] times -- fast 0.013s (13.2ms 13155μs) slow 0.635s (635.4ms 635426μs)
+[11:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8438.6 ccount 15130.2
+[12:1024] times -- fast 0.014s (14.5ms 14477μs) slow 0.635s (635.4ms 635426μs)
+[12:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8594.1 ccount 16202.5
+[13:1024] times -- fast 0.014s (14.2ms 14184μs) slow 0.635s (635.4ms 635426μs)
+[13:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8624.4 ccount 17127.6
+[14:1024] times -- fast 0.014s (14.3ms 14288μs) slow 0.635s (635.4ms 635426μs)
+[14:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8530.1 ccount 17894.5
+[15:1024] times -- fast 0.014s (14.1ms 14085μs) slow 0.635s (635.4ms 635426μs)
+[15:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8326.3 ccount 18507.7
+[16:1024] times -- fast 0.014s (13.7ms 13738μs) slow 0.635s (635.4ms 635426μs)
+[16:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8033.4 ccount 18978.4
+[17:1024] times -- fast 0.016s (16.2ms 16185μs) slow 0.635s (635.4ms 635426μs)
+[17:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7672.1 ccount 19329.3
+[18:1024] times -- fast 0.015s (14.9ms 14945μs) slow 0.635s (635.4ms 635426μs)
+[18:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7263.0 ccount 19582.6
+[19:1024] times -- fast 0.015s (14.9ms 14866μs) slow 0.635s (635.4ms 635426μs)
+[19:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6826.0 ccount 19759.7
+[20:1024] times -- fast 0.013s (13.0ms 12980μs) slow 0.635s (635.4ms 635426μs)
+[20:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6371.4 ccount 19879.0
+[21:1024] times -- fast 0.013s (12.7ms 12699μs) slow 0.635s (635.4ms 635426μs)
+[21:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5912.5 ccount 19957.7
+[22:1024] times -- fast 0.013s (13.3ms 13261μs) slow 0.635s (635.4ms 635426μs)
+[22:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5458.5 ccount 20007.9
+[23:1024] times -- fast 0.012s (12.2ms 12217μs) slow 0.635s (635.4ms 635426μs)
+[23:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5015.6 ccount 20039.5
+[24:1024] times -- fast 0.012s (12.3ms 12326μs) slow 0.635s (635.4ms 635426μs)
+[24:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 4588.6 ccount 20058.7
+
+--- 
+
+[1:1024] times -- fast 0.001s (0.6ms 626μs) slow 0.655s (655.2ms 655213μs)
+[1:1024] average Δ inf magnitude 2270.0 0s 749/1000 dcount 364.3 ccount 365.1
+[2:1024] times -- fast 0.002s (1.7ms 1687μs) slow 0.655s (655.2ms 655213μs)
+[2:1024] average Δ 1.3 magnitude 2270.0 0s 941/1000 dcount 1407.5 ccount 1462.9
+[3:1024] times -- fast 0.003s (3.4ms 3428μs) slow 0.655s (655.2ms 655213μs)
+[3:1024] average Δ 0.1 magnitude 2270.0 0s 985/1000 dcount 2818.5 ccount 3175.4
+[4:1024] times -- fast 0.005s (5.1ms 5084μs) slow 0.655s (655.2ms 655213μs)
+[4:1024] average Δ 0.1 magnitude 2270.0 0s 994/1000 dcount 4141.5 ccount 5026.4
+[5:1024] times -- fast 0.007s (7.4ms 7362μs) slow 0.655s (655.2ms 655213μs)
+[5:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5251.8 ccount 6802.8
+[6:1024] times -- fast 0.008s (7.9ms 7905μs) slow 0.655s (655.2ms 655213μs)
+[6:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6092.2 ccount 8385.9
+[7:1024] times -- fast 0.010s (10.4ms 10369μs) slow 0.655s (655.2ms 655213μs)
+[7:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6763.6 ccount 9859.7
+[8:1024] times -- fast 0.010s (10.0ms 10008μs) slow 0.655s (655.2ms 655213μs)
+[8:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7325.0 ccount 11281.2
+[9:1024] times -- fast 0.011s (11.0ms 10986μs) slow 0.655s (655.2ms 655213μs)
+[9:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7790.0 ccount 12640.1
+[10:1024] times -- fast 0.012s (12.2ms 12189μs) slow 0.655s (655.2ms 655213μs)
+[10:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8165.9 ccount 13933.1
+[11:1024] times -- fast 0.013s (12.8ms 12768μs) slow 0.655s (655.2ms 655213μs)
+[11:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8438.6 ccount 15130.2
+[12:1024] times -- fast 0.013s (13.0ms 12996μs) slow 0.655s (655.2ms 655213μs)
+[12:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8594.1 ccount 16202.5
+[13:1024] times -- fast 0.014s (13.6ms 13599μs) slow 0.655s (655.2ms 655213μs)
+[13:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8624.4 ccount 17127.6
+[14:1024] times -- fast 0.015s (14.7ms 14664μs) slow 0.655s (655.2ms 655213μs)
+[14:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8530.1 ccount 17894.5
+[15:1024] times -- fast 0.014s (14.0ms 13997μs) slow 0.655s (655.2ms 655213μs)
+[15:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8326.3 ccount 18507.7
+[16:1024] times -- fast 0.014s (14.1ms 14059μs) slow 0.655s (655.2ms 655213μs)
+[16:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8033.4 ccount 18978.4
+[17:1024] times -- fast 0.014s (13.5ms 13543μs) slow 0.655s (655.2ms 655213μs)
+[17:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7672.1 ccount 19329.3
+[18:1024] times -- fast 0.014s (13.9ms 13949μs) slow 0.655s (655.2ms 655213μs)
+[18:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7263.0 ccount 19582.6
+[19:1024] times -- fast 0.013s (13.5ms 13473μs) slow 0.655s (655.2ms 655213μs)
+[19:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6826.0 ccount 19759.7
+[20:1024] times -- fast 0.013s (13.1ms 13060μs) slow 0.655s (655.2ms 655213μs)
+[20:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6371.4 ccount 19879.0
+[21:1024] times -- fast 0.015s (14.6ms 14587μs) slow 0.655s (655.2ms 655213μs)
+[21:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5912.5 ccount 19957.7
+[22:1024] times -- fast 0.013s (13.2ms 13237μs) slow 0.655s (655.2ms 655213μs)
+[22:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5458.5 ccount 20007.9
+[23:1024] times -- fast 0.012s (11.8ms 11826μs) slow 0.655s (655.2ms 655213μs)
+[23:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5015.6 ccount 20039.5
+[24:1024] times -- fast 0.011s (11.2ms 11238μs) slow 0.655s (655.2ms 655213μs)
+[24:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 4588.6 ccount 20058.7
+
+---- [1:1024] times -- fast 0.001s (0.6ms 612μs) slow 0.635s (635.1ms 635072μs)
+[1:1024] average Δ inf magnitude 2270.0 0s 749/1000 dcount 364.3 ccount 365.1
+[2:1024] times -- fast 0.002s (1.7ms 1693μs) slow 0.635s (635.1ms 635072μs)
+[2:1024] average Δ 1.3 magnitude 2270.0 0s 941/1000 dcount 1407.5 ccount 1462.9
+[3:1024] times -- fast 0.003s (3.4ms 3424μs) slow 0.635s (635.1ms 635072μs)
+[3:1024] average Δ 0.1 magnitude 2270.0 0s 985/1000 dcount 2818.5 ccount 3175.4
+[4:1024] times -- fast 0.005s (5.1ms 5107μs) slow 0.635s (635.1ms 635072μs)
+[4:1024] average Δ 0.1 magnitude 2270.0 0s 994/1000 dcount 4141.5 ccount 5026.4
+[5:1024] times -- fast 0.007s (7.3ms 7333μs) slow 0.635s (635.1ms 635072μs)
+[5:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5251.8 ccount 6802.8
+[6:1024] times -- fast 0.008s (8.0ms 7975μs) slow 0.635s (635.1ms 635072μs)
+[6:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6092.2 ccount 8385.9
+[7:1024] times -- fast 0.010s (9.9ms 9932μs) slow 0.635s (635.1ms 635072μs)
+[7:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6763.6 ccount 9859.7
+[8:1024] times -- fast 0.010s (10.0ms 10009μs) slow 0.635s (635.1ms 635072μs)
+[8:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7325.0 ccount 11281.2
+[9:1024] times -- fast 0.011s (10.9ms 10905μs) slow 0.635s (635.1ms 635072μs)
+[9:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7790.0 ccount 12640.1
+[10:1024] times -- fast 0.012s (12.2ms 12177μs) slow 0.635s (635.1ms 635072μs)
+[10:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8165.9 ccount 13933.1
+[11:1024] times -- fast 0.013s (12.6ms 12592μs) slow 0.635s (635.1ms 635072μs)
+[11:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8438.6 ccount 15130.2
+[12:1024] times -- fast 0.013s (13.1ms 13096μs) slow 0.635s (635.1ms 635072μs)
+[12:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8594.1 ccount 16202.5
+[13:1024] times -- fast 0.014s (13.6ms 13634μs) slow 0.635s (635.1ms 635072μs)
+[13:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8624.4 ccount 17127.6
+[14:1024] times -- fast 0.015s (14.6ms 14631μs) slow 0.635s (635.1ms 635072μs)
+[14:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8530.1 ccount 17894.5
+[15:1024] times -- fast 0.014s (14.0ms 13965μs) slow 0.635s (635.1ms 635072μs)
+[15:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8326.3 ccount 18507.7
+[16:1024] times -- fast 0.014s (13.8ms 13818μs) slow 0.635s (635.1ms 635072μs)
+[16:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8033.4 ccount 18978.4
+[17:1024] times -- fast 0.014s (13.7ms 13696μs) slow 0.635s (635.1ms 635072μs)
+[17:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7672.1 ccount 19329.3
+[18:1024] times -- fast 0.014s (13.7ms 13655μs) slow 0.635s (635.1ms 635072μs)
+[18:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7263.0 ccount 19582.6
+[19:1024] times -- fast 0.013s (13.3ms 13270μs) slow 0.635s (635.1ms 635072μs)
+[19:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6826.0 ccount 19759.7
+[20:1024] times -- fast 0.013s (12.8ms 12828μs) slow 0.635s (635.1ms 635072μs)
+[20:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6371.4 ccount 19879.0
+[21:1024] times -- fast 0.014s (14.3ms 14304μs) slow 0.635s (635.1ms 635072μs)
+[21:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5912.5 ccount 19957.7
+[22:1024] times -- fast 0.013s (13.2ms 13192μs) slow 0.635s (635.1ms 635072μs)
+[22:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5458.5 ccount 20007.9
+[23:1024] times -- fast 0.012s (11.6ms 11635μs) slow 0.635s (635.1ms 635072μs)
+[23:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5015.6 ccount 20039.5
+[24:1024] times -- fast 0.011s (11.4ms 11383μs) slow 0.635s (635.1ms 635072μs)
+[24:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 4588.6 ccount 20058.7
+
+---- 8nn
+
+[1:1024] times -- fast 0.001s (0.6ms 615μs) slow 0.642s (641.8ms 641832μs)
+[1:1024] average Δ inf magnitude 2270.0 0s 749/1000 dcount 364.3 ccount 365.1
+[2:1024] times -- fast 0.002s (1.7ms 1687μs) slow 0.642s (641.8ms 641832μs)
+[2:1024] average Δ 1.3 magnitude 2270.0 0s 941/1000 dcount 1407.5 ccount 1462.9
+[3:1024] times -- fast 0.003s (3.5ms 3481μs) slow 0.642s (641.8ms 641832μs)
+[3:1024] average Δ 0.1 magnitude 2270.0 0s 985/1000 dcount 2818.5 ccount 3175.4
+[4:1024] times -- fast 0.005s (5.1ms 5123μs) slow 0.642s (641.8ms 641832μs)
+[4:1024] average Δ 0.1 magnitude 2270.0 0s 994/1000 dcount 4141.5 ccount 5026.4
+[5:1024] times -- fast 0.007s (7.4ms 7420μs) slow 0.642s (641.8ms 641832μs)
+[5:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5251.8 ccount 6802.8
+[6:1024] times -- fast 0.008s (7.9ms 7939μs) slow 0.642s (641.8ms 641832μs)
+[6:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6092.2 ccount 8385.9
+[7:1024] times -- fast 0.010s (10.0ms 9954μs) slow 0.642s (641.8ms 641832μs)
+[7:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6763.6 ccount 9859.7
+[8:1024] times -- fast 0.010s (10.0ms 9962μs) slow 0.642s (641.8ms 641832μs)
+[8:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7325.0 ccount 11281.2
+[9:1024] times -- fast 0.011s (10.9ms 10949μs) slow 0.642s (641.8ms 641832μs)
+[9:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7790.0 ccount 12640.1
+[10:1024] times -- fast 0.012s (12.1ms 12144μs) slow 0.642s (641.8ms 641832μs)
+[10:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8165.9 ccount 13933.1
+[11:1024] times -- fast 0.013s (12.9ms 12898μs) slow 0.642s (641.8ms 641832μs)
+[11:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8438.6 ccount 15130.2
+[12:1024] times -- fast 0.013s (13.3ms 13263μs) slow 0.642s (641.8ms 641832μs)
+[12:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8594.1 ccount 16202.5
+[13:1024] times -- fast 0.014s (13.7ms 13655μs) slow 0.642s (641.8ms 641832μs)
+[13:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8624.4 ccount 17127.6
+[14:1024] times -- fast 0.015s (14.7ms 14673μs) slow 0.642s (641.8ms 641832μs)
+[14:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8530.1 ccount 17894.5
+[15:1024] times -- fast 0.014s (13.8ms 13848μs) slow 0.642s (641.8ms 641832μs)
+[15:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8326.3 ccount 18507.7
+[16:1024] times -- fast 0.014s (14.1ms 14146μs) slow 0.642s (641.8ms 641832μs)
+[16:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 8033.4 ccount 18978.4
+[17:1024] times -- fast 0.014s (13.8ms 13751μs) slow 0.642s (641.8ms 641832μs)
+[17:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7672.1 ccount 19329.3
+[18:1024] times -- fast 0.014s (13.9ms 13897μs) slow 0.642s (641.8ms 641832μs)
+[18:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 7263.0 ccount 19582.6
+[19:1024] times -- fast 0.013s (13.5ms 13464μs) slow 0.642s (641.8ms 641832μs)
+[19:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6826.0 ccount 19759.7
+[20:1024] times -- fast 0.013s (12.8ms 12804μs) slow 0.642s (641.8ms 641832μs)
+[20:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 6371.4 ccount 19879.0
+[21:1024] times -- fast 0.014s (14.4ms 14384μs) slow 0.642s (641.8ms 641832μs)
+[21:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5912.5 ccount 19957.7
+[22:1024] times -- fast 0.013s (13.1ms 13116μs) slow 0.642s (641.8ms 641832μs)
+[22:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5458.5 ccount 20007.9
+[23:1024] times -- fast 0.012s (11.9ms 11900μs) slow 0.642s (641.8ms 641832μs)
+[23:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 5015.6 ccount 20039.5
+[24:1024] times -- fast 0.012s (11.5ms 11527μs) slow 0.642s (641.8ms 641832μs)
+[24:1024] average Δ 0.0 magnitude 2270.0 0s 998/1000 dcount 4588.6 ccount 20058.7

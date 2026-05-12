@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC09CB562A0D328500879964 /* ranked_vectors.h in Headers */ = {isa = PBXBuildFile; fileRef = FC09CB552A0D328500879964 /* ranked_vectors.h */; };
+		FC10EDF129F806170042CFD2 /* float_index.h in Headers */ = {isa = PBXBuildFile; fileRef = FC10EDF029F806170042CFD2 /* float_index.h */; };
+		FC10EDF329F806520042CFD2 /* slice.h in Headers */ = {isa = PBXBuildFile; fileRef = FC10EDF229F806520042CFD2 /* slice.h */; };
+		FC10EDF529F806A30042CFD2 /* slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC10EDF429F806A30042CFD2 /* slice.cpp */; };
+		FC10EDF729F80AED0042CFD2 /* slices.h in Headers */ = {isa = PBXBuildFile; fileRef = FC10EDF629F80AED0042CFD2 /* slices.h */; };
+		FC10EDF929F80B010042CFD2 /* slices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC10EDF829F80B010042CFD2 /* slices.cpp */; };
+		FC10EDFD29F86EB70042CFD2 /* slice_cardinality.h in Headers */ = {isa = PBXBuildFile; fileRef = FC10EDFC29F86EB60042CFD2 /* slice_cardinality.h */; };
+		FC10EDFF29F96BC70042CFD2 /* rank_id.h in Headers */ = {isa = PBXBuildFile; fileRef = FC10EDFE29F96BC70042CFD2 /* rank_id.h */; };
+		FC10EE0129F96F330042CFD2 /* rank.h in Headers */ = {isa = PBXBuildFile; fileRef = FC10EE0029F96F330042CFD2 /* rank.h */; };
+		FC4EBD6A29FAFB1A00F554D7 /* value_index_t.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4EBD6929FAFB1A00F554D7 /* value_index_t.h */; };
+		FC85E6F72A002C0200F2A358 /* sorts.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E6F62A002C0200F2A358 /* sorts.h */; };
+		FC85E6F92A00371300F2A358 /* k_indices_queue.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E6F82A00371300F2A358 /* k_indices_queue.h */; };
+		FC85E6FF2A00ADD400F2A358 /* mdct.c in Sources */ = {isa = PBXBuildFile; fileRef = FC85E6FE2A00ADD400F2A358 /* mdct.c */; };
+		FC85E7042A00AE9000F2A358 /* mdct.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E7002A00AE9000F2A358 /* mdct.h */; };
+		FC85E7092A00B37500F2A358 /* dct.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E7082A00B37500F2A358 /* dct.h */; };
+		FC85E70E2A0166EB00F2A358 /* dim_exp.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E70D2A0166EB00F2A358 /* dim_exp.h */; };
+		FC85E7102A01674A00F2A358 /* generators.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E70F2A01674A00F2A358 /* generators.h */; };
+		FC85E7162A0299F600F2A358 /* streams.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E7152A0299F600F2A358 /* streams.h */; };
+		FC85E7182A029A2D00F2A358 /* comparators.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E7172A029A2D00F2A358 /* comparators.h */; };
+		FC85E71F2A02B13000F2A358 /* key_finder.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E71E2A02B13000F2A358 /* key_finder.h */; };
+		FC85E7212A02B47200F2A358 /* statistics.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E7202A02B47200F2A358 /* statistics.h */; };
+		FC85E7232A02B58B00F2A358 /* stl_tests.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E7222A02B58B00F2A358 /* stl_tests.h */; };
+		FC85E7252A02B59200F2A358 /* stl_tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC85E7242A02B59200F2A358 /* stl_tests.cpp */; };
+		FC85E7292A02B69400F2A358 /* base.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E7282A02B69400F2A358 /* base.h */; };
+		FC85E72B2A02B91900F2A358 /* geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E72A2A02B91900F2A358 /* geometry.h */; };
+		FC85E72D2A02BA5500F2A358 /* metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E72C2A02BA5500F2A358 /* metadata.h */; };
+		FC85E72F2A0546F300F2A358 /* stat_key.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E72E2A0546F300F2A358 /* stat_key.h */; };
+		FC85E7312A056A1F00F2A358 /* real_index.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E7302A056A1F00F2A358 /* real_index.h */; };
+		FC85E7352A06083E00F2A358 /* key_id_index.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E7342A06083E00F2A358 /* key_id_index.h */; };
+		FC85E7372A06087B00F2A358 /* key_id_index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC85E7362A06087B00F2A358 /* key_id_index.cpp */; };
+		FC85E7392A07241F00F2A358 /* slices_finder.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E7382A07241F00F2A358 /* slices_finder.h */; };
+		FC85E73B2A07293200F2A358 /* slices_finder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC85E73A2A07293200F2A358 /* slices_finder.cpp */; };
+		FC85E73D2A08504900F2A358 /* ranks.h in Headers */ = {isa = PBXBuildFile; fileRef = FC85E73C2A08504900F2A358 /* ranks.h */; };
+		FC8D278229ECA6C900EBF892 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC8D278129ECA6C900EBF892 /* main.cpp */; };
+		FC8D279629EDCC8100EBF892 /* safe_btree_map.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8D278F29EDCC8100EBF892 /* safe_btree_map.h */; };
+		FC8D279729EDCC8100EBF892 /* btree_map.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8D279029EDCC8100EBF892 /* btree_map.h */; };
+		FC8D279829EDCC8100EBF892 /* safe_btree_set.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8D279129EDCC8100EBF892 /* safe_btree_set.h */; };
+		FC8D279929EDCC8100EBF892 /* btree_set.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8D279229EDCC8100EBF892 /* btree_set.h */; };
+		FC8D279A29EDCC8100EBF892 /* btree.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8D279329EDCC8100EBF892 /* btree.h */; };
+		FC8D279B29EDCC8100EBF892 /* btree_container.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8D279429EDCC8100EBF892 /* btree_container.h */; };
+		FC8D279C29EDCC8100EBF892 /* safe_btree.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8D279529EDCC8100EBF892 /* safe_btree.h */; };
+		FC8D279F29EEE71000EBF892 /* simple_timer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8D279E29EEE71000EBF892 /* simple_timer.h */; };
+		FC9564B02A0D7631004CC7C3 /* multiword.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9564AF2A0D7631004CC7C3 /* multiword.h */; };
+		FC9564B22A0D9D30004CC7C3 /* mysql.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9564B12A0D9D30004CC7C3 /* mysql.h */; };
+		FC9564C22A0DAEBB004CC7C3 /* authentication_ldap_sasl_client.so in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9564BF2A0DAEBB004CC7C3 /* authentication_ldap_sasl_client.so */; };
+		FC9564C32A0DAEBB004CC7C3 /* authentication_fido_client.so in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9564C02A0DAEBB004CC7C3 /* authentication_fido_client.so */; };
+		FC9564C42A0DAEBB004CC7C3 /* authentication_oci_client.so in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9564C12A0DAEBB004CC7C3 /* authentication_oci_client.so */; };
+		FC9564E82A0DB73E004CC7C3 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9564C62A0DAEE3004CC7C3 /* libssl.dylib */; };
+		FC9564EA2A0DB787004CC7C3 /* libssl.1.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = FC9564E92A0DB787004CC7C3 /* libssl.1.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		FC9564ED2A0DB7E5004CC7C3 /* libmysqlcppconn.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9564D32A0DAF41004CC7C3 /* libmysqlcppconn.9.dylib */; };
+		FC9564EF2A0DB7FB004CC7C3 /* libmysqlcppconn.9.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = FC9564EE2A0DB7FB004CC7C3 /* libmysqlcppconn.9.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		FC9564F02A0DB814004CC7C3 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9564C92A0DAF16004CC7C3 /* libcrypto.dylib */; };
+		FC9564F22A0DB829004CC7C3 /* libcrypto.1.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = FC9564F12A0DB829004CC7C3 /* libcrypto.1.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		FC9564F42A0EC5E8004CC7C3 /* traverser.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9564F32A0EC5E8004CC7C3 /* traverser.h */; };
+		FC9564F82A129594004CC7C3 /* hilbert.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9564F72A129594004CC7C3 /* hilbert.h */; };
+		FC9564FC2A150781004CC7C3 /* stl.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9564FB2A150781004CC7C3 /* stl.h */; };
+		FC9564FE2A150794004CC7C3 /* pairs.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9564FD2A150794004CC7C3 /* pairs.h */; };
+		FC9565032A157BAB004CC7C3 /* fixed_vector.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9565022A157BAB004CC7C3 /* fixed_vector.h */; };
+		FC9565052A16627B004CC7C3 /* block.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9565042A16627B004CC7C3 /* block.h */; };
+		FC95650C2A167245004CC7C3 /* file_mapper_.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC95650A2A167245004CC7C3 /* file_mapper_.cpp */; };
+		FC95650D2A167245004CC7C3 /* file_mapper_.h in Headers */ = {isa = PBXBuildFile; fileRef = FC95650B2A167245004CC7C3 /* file_mapper_.h */; };
+		FCA208742A092C860029822B /* pack_bits.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA208732A092C860029822B /* pack_bits.h */; };
+		FCA208782A0A90ED0029822B /* ranked_vector.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA208772A0A90ED0029822B /* ranked_vector.h */; };
+		FCA2087A2A0AAD910029822B /* ranked_vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA208792A0AAD910029822B /* ranked_vector.cpp */; };
+		FCA2087C2A0C02250029822B /* simple_bitset.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA2087B2A0C02250029822B /* simple_bitset.h */; };
+		FCA2087E2A0C0DFF0029822B /* ranked_vector256.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA2087D2A0C0DFF0029822B /* ranked_vector256.h */; };
+		FCA208822A0C10CB0029822B /* bfloat16.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA208812A0C10CB0029822B /* bfloat16.h */; };
+		FCB40B2E2A16CB7300C2A78E /* vector_key.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB40B2D2A16CB7300C2A78E /* vector_key.h */; };
+		FCB40B302A17E43700C2A78E /* gzip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCB40B2F2A17E43700C2A78E /* gzip.cpp */; };
+		FCB40B6B2A17EE7C00C2A78E /* libboost_atomic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB40B4B2A17ED6C00C2A78E /* libboost_atomic.a */; };
+		FCB40B6C2A17EEA800C2A78E /* libboost_iostreams.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB40B372A17ED6B00C2A78E /* libboost_iostreams.a */; };
+		FCB40B6D2A17EEC900C2A78E /* libboost_atomic.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB40B512A17ED6C00C2A78E /* libboost_atomic.dylib */; };
+		FCB40B6E2A17EEC900C2A78E /* libboost_atomic.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = FCB40B512A17ED6C00C2A78E /* libboost_atomic.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		FCB40B702A17F07600C2A78E /* libboost_iostreams.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB40B4D2A17ED6C00C2A78E /* libboost_iostreams.dylib */; };
+		FCB40B712A17F07600C2A78E /* libboost_iostreams.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = FCB40B4D2A17ED6C00C2A78E /* libboost_iostreams.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		FCB40B772A19576E00C2A78E /* libzstd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB40B732A18094D00C2A78E /* libzstd.a */; };
+		FCB40B782A19578D00C2A78E /* libzstd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB40B722A18094C00C2A78E /* libzstd.dylib */; };
+		FCB40B792A19578D00C2A78E /* libzstd.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = FCB40B722A18094C00C2A78E /* libzstd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		FCB40B7A2A1957E300C2A78E /* libzstd.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB40B742A18099900C2A78E /* libzstd.1.dylib */; };
+		FCB40B7B2A1957E300C2A78E /* libzstd.1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = FCB40B742A18099900C2A78E /* libzstd.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		FCB40B7D2A1957E400C2A78E /* libzstd.1.5.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB40B7C2A1957E300C2A78E /* libzstd.1.5.5.dylib */; };
+		FCB40B7E2A1957E400C2A78E /* libzstd.1.5.5.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = FCB40B7C2A1957E300C2A78E /* libzstd.1.5.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		FCDA62AC29FC309C004B7B62 /* pattern.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDA62AB29FC309C004B7B62 /* pattern.h */; };
+		FCDA62AE29FC3EB2004B7B62 /* key_index.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDA62AD29FC3EB2004B7B62 /* key_index.h */; };
+		FCDA62B029FC3ECA004B7B62 /* metric_cache.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDA62AF29FC3ECA004B7B62 /* metric_cache.h */; };
+		FCDA62B229FC3F05004B7B62 /* container.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDA62B129FC3F05004B7B62 /* container.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC8D277C29ECA6C900EBF892 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FC9564B92A0DAD49004CC7C3 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FCB40B7B2A1957E300C2A78E /* libzstd.1.dylib in Embed Libraries */,
+				FC9564F22A0DB829004CC7C3 /* libcrypto.1.1.dylib in Embed Libraries */,
+				FCB40B6E2A17EEC900C2A78E /* libboost_atomic.dylib in Embed Libraries */,
+				FC9564EA2A0DB787004CC7C3 /* libssl.1.1.dylib in Embed Libraries */,
+				FC9564EF2A0DB7FB004CC7C3 /* libmysqlcppconn.9.dylib in Embed Libraries */,
+				FCB40B712A17F07600C2A78E /* libboost_iostreams.dylib in Embed Libraries */,
+				FCB40B7E2A1957E400C2A78E /* libzstd.1.5.5.dylib in Embed Libraries */,
+				FCB40B792A19578D00C2A78E /* libzstd.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC09CB552A0D328500879964 /* ranked_vectors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ranked_vectors.h; sourceTree = "<group>"; };
+		FC10EDF029F806170042CFD2 /* float_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = float_index.h; sourceTree = "<group>"; };
+		FC10EDF229F806520042CFD2 /* slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slice.h; sourceTree = "<group>"; };
+		FC10EDF429F806A30042CFD2 /* slice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = slice.cpp; sourceTree = "<group>"; };
+		FC10EDF629F80AED0042CFD2 /* slices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slices.h; sourceTree = "<group>"; };
+		FC10EDF829F80B010042CFD2 /* slices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = slices.cpp; sourceTree = "<group>"; };
+		FC10EDFC29F86EB60042CFD2 /* slice_cardinality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slice_cardinality.h; sourceTree = "<group>"; };
+		FC10EDFE29F96BC70042CFD2 /* rank_id.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rank_id.h; sourceTree = "<group>"; };
+		FC10EE0029F96F330042CFD2 /* rank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rank.h; sourceTree = "<group>"; };
+		FC4EBD6929FAFB1A00F554D7 /* value_index_t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value_index_t.h; sourceTree = "<group>"; };
+		FC85E6F62A002C0200F2A358 /* sorts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sorts.h; sourceTree = "<group>"; };
+		FC85E6F82A00371300F2A358 /* k_indices_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = k_indices_queue.h; sourceTree = "<group>"; };
+		FC85E6FE2A00ADD400F2A358 /* mdct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mdct.c; sourceTree = "<group>"; };
+		FC85E7002A00AE9000F2A358 /* mdct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdct.h; sourceTree = "<group>"; };
+		FC85E7082A00B37500F2A358 /* dct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dct.h; sourceTree = "<group>"; };
+		FC85E70D2A0166EB00F2A358 /* dim_exp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dim_exp.h; sourceTree = "<group>"; };
+		FC85E70F2A01674A00F2A358 /* generators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = generators.h; sourceTree = "<group>"; };
+		FC85E7152A0299F600F2A358 /* streams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = streams.h; sourceTree = "<group>"; };
+		FC85E7172A029A2D00F2A358 /* comparators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comparators.h; sourceTree = "<group>"; };
+		FC85E71E2A02B13000F2A358 /* key_finder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = key_finder.h; sourceTree = "<group>"; };
+		FC85E7202A02B47200F2A358 /* statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statistics.h; sourceTree = "<group>"; };
+		FC85E7222A02B58B00F2A358 /* stl_tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stl_tests.h; sourceTree = "<group>"; };
+		FC85E7242A02B59200F2A358 /* stl_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stl_tests.cpp; sourceTree = "<group>"; };
+		FC85E7282A02B69400F2A358 /* base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
+		FC85E72A2A02B91900F2A358 /* geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geometry.h; sourceTree = "<group>"; };
+		FC85E72C2A02BA5500F2A358 /* metadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadata.h; sourceTree = "<group>"; };
+		FC85E72E2A0546F300F2A358 /* stat_key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stat_key.h; sourceTree = "<group>"; };
+		FC85E7302A056A1F00F2A358 /* real_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = real_index.h; sourceTree = "<group>"; };
+		FC85E7342A06083E00F2A358 /* key_id_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = key_id_index.h; sourceTree = "<group>"; };
+		FC85E7362A06087B00F2A358 /* key_id_index.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = key_id_index.cpp; sourceTree = "<group>"; };
+		FC85E7382A07241F00F2A358 /* slices_finder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slices_finder.h; sourceTree = "<group>"; };
+		FC85E73A2A07293200F2A358 /* slices_finder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = slices_finder.cpp; sourceTree = "<group>"; };
+		FC85E73C2A08504900F2A358 /* ranks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ranks.h; sourceTree = "<group>"; };
+		FC8D277E29ECA6C900EBF892 /* vector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = vector; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8D278129ECA6C900EBF892 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC8D278F29EDCC8100EBF892 /* safe_btree_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safe_btree_map.h; sourceTree = "<group>"; };
+		FC8D279029EDCC8100EBF892 /* btree_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btree_map.h; sourceTree = "<group>"; };
+		FC8D279129EDCC8100EBF892 /* safe_btree_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safe_btree_set.h; sourceTree = "<group>"; };
+		FC8D279229EDCC8100EBF892 /* btree_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btree_set.h; sourceTree = "<group>"; };
+		FC8D279329EDCC8100EBF892 /* btree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btree.h; sourceTree = "<group>"; };
+		FC8D279429EDCC8100EBF892 /* btree_container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btree_container.h; sourceTree = "<group>"; };
+		FC8D279529EDCC8100EBF892 /* safe_btree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safe_btree.h; sourceTree = "<group>"; };
+		FC8D279E29EEE71000EBF892 /* simple_timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simple_timer.h; sourceTree = "<group>"; };
+		FC9564AF2A0D7631004CC7C3 /* multiword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multiword.h; sourceTree = "<group>"; };
+		FC9564B12A0D9D30004CC7C3 /* mysql.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql.h; sourceTree = "<group>"; };
+		FC9564B42A0DAD17004CC7C3 /* libmysqlcppconn8-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmysqlcppconn8-static.a"; path = "../mysql-connector-c++/lib64/libmysqlcppconn8-static.a"; sourceTree = "<group>"; };
+		FC9564B62A0DAD49004CC7C3 /* libmysqlcppconn8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlcppconn8.dylib; path = "../mysql-connector-c++/lib64/libmysqlcppconn8.dylib"; sourceTree = "<group>"; };
+		FC9564BB2A0DAE5A004CC7C3 /* libmysqlcppconn.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlcppconn.dylib; path = "../mysql-connector-c++/lib64/libmysqlcppconn.dylib"; sourceTree = "<group>"; };
+		FC9564BD2A0DAE92004CC7C3 /* libmysqlcppconn-static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmysqlcppconn-static.a"; path = "../mysql-connector-c++/lib64/libmysqlcppconn-static.a"; sourceTree = "<group>"; };
+		FC9564BF2A0DAEBB004CC7C3 /* authentication_ldap_sasl_client.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = authentication_ldap_sasl_client.so; path = "../mysql-connector-c++/lib64/plugin/authentication_ldap_sasl_client.so"; sourceTree = "<group>"; };
+		FC9564C02A0DAEBB004CC7C3 /* authentication_fido_client.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = authentication_fido_client.so; path = "../mysql-connector-c++/lib64/plugin/authentication_fido_client.so"; sourceTree = "<group>"; };
+		FC9564C12A0DAEBB004CC7C3 /* authentication_oci_client.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = authentication_oci_client.so; path = "../mysql-connector-c++/lib64/plugin/authentication_oci_client.so"; sourceTree = "<group>"; };
+		FC9564C52A0DAEE3004CC7C3 /* libfido2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfido2.dylib; path = "../mysql-connector-c++/lib64/libfido2.dylib"; sourceTree = "<group>"; };
+		FC9564C62A0DAEE3004CC7C3 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = "../mysql-connector-c++/lib64/libssl.dylib"; sourceTree = "<group>"; };
+		FC9564C92A0DAF16004CC7C3 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = "../mysql-connector-c++/lib64/libcrypto.dylib"; sourceTree = "<group>"; };
+		FC9564CD2A0DAF41004CC7C3 /* libmysqlcppconn8.2.8.0.33.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlcppconn8.2.8.0.33.dylib; path = "../mysql-connector-c++/lib64/libmysqlcppconn8.2.8.0.33.dylib"; sourceTree = "<group>"; };
+		FC9564CE2A0DAF41004CC7C3 /* libmysqlcppconn8.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlcppconn8.2.dylib; path = "../mysql-connector-c++/lib64/libmysqlcppconn8.2.dylib"; sourceTree = "<group>"; };
+		FC9564CF2A0DAF41004CC7C3 /* libfido2.1.8.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfido2.1.8.0.dylib; path = "../mysql-connector-c++/lib64/libfido2.1.8.0.dylib"; sourceTree = "<group>"; };
+		FC9564D02A0DAF41004CC7C3 /* libfido2.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfido2.1.dylib; path = "../mysql-connector-c++/lib64/libfido2.1.dylib"; sourceTree = "<group>"; };
+		FC9564D12A0DAF41004CC7C3 /* libcrypto.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.1.dylib; path = "../mysql-connector-c++/lib64/libcrypto.1.1.dylib"; sourceTree = "<group>"; };
+		FC9564D22A0DAF41004CC7C3 /* libmysqlcppconn.9.8.0.33.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlcppconn.9.8.0.33.dylib; path = "../mysql-connector-c++/lib64/libmysqlcppconn.9.8.0.33.dylib"; sourceTree = "<group>"; };
+		FC9564D32A0DAF41004CC7C3 /* libmysqlcppconn.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlcppconn.9.dylib; path = "../mysql-connector-c++/lib64/libmysqlcppconn.9.dylib"; sourceTree = "<group>"; };
+		FC9564D42A0DAF41004CC7C3 /* libssl.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.1.1.dylib; path = "../mysql-connector-c++/lib64/libssl.1.1.dylib"; sourceTree = "<group>"; };
+		FC9564E92A0DB787004CC7C3 /* libssl.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.1.1.dylib; path = "../mysql-connector-c++/lib64/libssl.1.1.dylib"; sourceTree = "<group>"; };
+		FC9564EE2A0DB7FB004CC7C3 /* libmysqlcppconn.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlcppconn.9.dylib; path = "../mysql-connector-c++/lib64/libmysqlcppconn.9.dylib"; sourceTree = "<group>"; };
+		FC9564F12A0DB829004CC7C3 /* libcrypto.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.1.1.dylib; path = "../mysql-connector-c++/lib64/libcrypto.1.1.dylib"; sourceTree = "<group>"; };
+		FC9564F32A0EC5E8004CC7C3 /* traverser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traverser.h; sourceTree = "<group>"; };
+		FC9564F72A129594004CC7C3 /* hilbert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hilbert.h; sourceTree = "<group>"; };
+		FC9564FB2A150781004CC7C3 /* stl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stl.h; sourceTree = "<group>"; };
+		FC9564FD2A150794004CC7C3 /* pairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pairs.h; sourceTree = "<group>"; };
+		FC9565022A157BAB004CC7C3 /* fixed_vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixed_vector.h; sourceTree = "<group>"; };
+		FC9565042A16627B004CC7C3 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block.h; sourceTree = "<group>"; };
+		FC95650A2A167245004CC7C3 /* file_mapper_.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file_mapper_.cpp; sourceTree = "<group>"; };
+		FC95650B2A167245004CC7C3 /* file_mapper_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_mapper_.h; sourceTree = "<group>"; };
+		FCA208732A092C860029822B /* pack_bits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack_bits.h; sourceTree = "<group>"; };
+		FCA208772A0A90ED0029822B /* ranked_vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ranked_vector.h; sourceTree = "<group>"; };
+		FCA208792A0AAD910029822B /* ranked_vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ranked_vector.cpp; sourceTree = "<group>"; };
+		FCA2087B2A0C02250029822B /* simple_bitset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simple_bitset.h; sourceTree = "<group>"; };
+		FCA2087D2A0C0DFF0029822B /* ranked_vector256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ranked_vector256.h; sourceTree = "<group>"; };
+		FCA208812A0C10CB0029822B /* bfloat16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bfloat16.h; sourceTree = "<group>"; };
+		FCB40B2D2A16CB7300C2A78E /* vector_key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector_key.h; sourceTree = "<group>"; };
+		FCB40B2F2A17E43700C2A78E /* gzip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gzip.cpp; path = vector/gzip.cpp; sourceTree = SOURCE_ROOT; };
+		FCB40B312A17ED6B00C2A78E /* libboost_timer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_timer.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_timer.a; sourceTree = "<group>"; };
+		FCB40B322A17ED6B00C2A78E /* libboost_stacktrace_addr2line.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_stacktrace_addr2line.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_stacktrace_addr2line.a; sourceTree = "<group>"; };
+		FCB40B332A17ED6B00C2A78E /* libboost_thread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_thread.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_thread.a; sourceTree = "<group>"; };
+		FCB40B342A17ED6B00C2A78E /* libboost_log_setup.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_log_setup.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_log_setup.dylib; sourceTree = "<group>"; };
+		FCB40B352A17ED6B00C2A78E /* libboost_test_exec_monitor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_test_exec_monitor.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_test_exec_monitor.a; sourceTree = "<group>"; };
+		FCB40B362A17ED6B00C2A78E /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_system.dylib; sourceTree = "<group>"; };
+		FCB40B372A17ED6B00C2A78E /* libboost_iostreams.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_iostreams.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_iostreams.a; sourceTree = "<group>"; };
+		FCB40B382A17ED6B00C2A78E /* libboost_python310.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_python310.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_python310.a; sourceTree = "<group>"; };
+		FCB40B392A17ED6B00C2A78E /* libboost_numpy310.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_numpy310.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_numpy310.dylib; sourceTree = "<group>"; };
+		FCB40B3A2A17ED6B00C2A78E /* libboost_type_erasure.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_type_erasure.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_type_erasure.a; sourceTree = "<group>"; };
+		FCB40B3B2A17ED6B00C2A78E /* libboost_container.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_container.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_container.dylib; sourceTree = "<group>"; };
+		FCB40B3C2A17ED6B00C2A78E /* libboost_wserialization.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_wserialization.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_wserialization.dylib; sourceTree = "<group>"; };
+		FCB40B3D2A17ED6B00C2A78E /* libboost_graph.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_graph.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_graph.dylib; sourceTree = "<group>"; };
+		FCB40B3E2A17ED6B00C2A78E /* libboost_prg_exec_monitor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_prg_exec_monitor.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_prg_exec_monitor.a; sourceTree = "<group>"; };
+		FCB40B3F2A17ED6C00C2A78E /* libboost_coroutine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_coroutine.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_coroutine.a; sourceTree = "<group>"; };
+		FCB40B402A17ED6C00C2A78E /* libboost_timer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_timer.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_timer.dylib; sourceTree = "<group>"; };
+		FCB40B412A17ED6C00C2A78E /* libboost_python310.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_python310.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_python310.dylib; sourceTree = "<group>"; };
+		FCB40B422A17ED6C00C2A78E /* libboost_random.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_random.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_random.dylib; sourceTree = "<group>"; };
+		FCB40B432A17ED6C00C2A78E /* libboost_context.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_context.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_context.dylib; sourceTree = "<group>"; };
+		FCB40B442A17ED6C00C2A78E /* libboost_stacktrace_basic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_stacktrace_basic.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_stacktrace_basic.dylib; sourceTree = "<group>"; };
+		FCB40B452A17ED6C00C2A78E /* libboost_regex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_regex.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_regex.a; sourceTree = "<group>"; };
+		FCB40B462A17ED6C00C2A78E /* libboost_stacktrace_noop.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_stacktrace_noop.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_stacktrace_noop.a; sourceTree = "<group>"; };
+		FCB40B472A17ED6C00C2A78E /* libboost_chrono.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_chrono.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_chrono.a; sourceTree = "<group>"; };
+		FCB40B482A17ED6C00C2A78E /* libboost_random.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_random.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_random.a; sourceTree = "<group>"; };
+		FCB40B492A17ED6C00C2A78E /* libboost_container.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_container.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_container.a; sourceTree = "<group>"; };
+		FCB40B4A2A17ED6C00C2A78E /* libboost_context.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_context.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_context.a; sourceTree = "<group>"; };
+		FCB40B4B2A17ED6C00C2A78E /* libboost_atomic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_atomic.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_atomic.a; sourceTree = "<group>"; };
+		FCB40B4C2A17ED6C00C2A78E /* libboost_contract.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_contract.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_contract.a; sourceTree = "<group>"; };
+		FCB40B4D2A17ED6C00C2A78E /* libboost_iostreams.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_iostreams.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_iostreams.dylib; sourceTree = "<group>"; };
+		FCB40B4E2A17ED6C00C2A78E /* libboost_regex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_regex.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_regex.dylib; sourceTree = "<group>"; };
+		FCB40B4F2A17ED6C00C2A78E /* libboost_unit_test_framework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_unit_test_framework.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_unit_test_framework.a; sourceTree = "<group>"; };
+		FCB40B502A17ED6C00C2A78E /* libboost_graph.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_graph.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_graph.a; sourceTree = "<group>"; };
+		FCB40B512A17ED6C00C2A78E /* libboost_atomic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_atomic.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_atomic.dylib; sourceTree = "<group>"; };
+		FCB40B522A17ED6C00C2A78E /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_filesystem.a; sourceTree = "<group>"; };
+		FCB40B532A17ED6C00C2A78E /* libboost_coroutine.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_coroutine.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_coroutine.dylib; sourceTree = "<group>"; };
+		FCB40B542A17ED6C00C2A78E /* libboost_date_time.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_date_time.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_date_time.dylib; sourceTree = "<group>"; };
+		FCB40B552A17ED6C00C2A78E /* libboost_filesystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_filesystem.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_filesystem.dylib; sourceTree = "<group>"; };
+		FCB40B562A17ED6C00C2A78E /* libboost_unit_test_framework.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_unit_test_framework.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_unit_test_framework.dylib; sourceTree = "<group>"; };
+		FCB40B572A17ED6C00C2A78E /* libboost_log.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_log.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_log.dylib; sourceTree = "<group>"; };
+		FCB40B582A17ED6C00C2A78E /* libboost_thread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_thread.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_thread.dylib; sourceTree = "<group>"; };
+		FCB40B592A17ED6C00C2A78E /* libboost_numpy310.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_numpy310.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_numpy310.a; sourceTree = "<group>"; };
+		FCB40B5A2A17ED6C00C2A78E /* libboost_serialization.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_serialization.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_serialization.a; sourceTree = "<group>"; };
+		FCB40B5B2A17ED6C00C2A78E /* libboost_program_options.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_program_options.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_program_options.dylib; sourceTree = "<group>"; };
+		FCB40B5C2A17ED6C00C2A78E /* libboost_contract.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_contract.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_contract.dylib; sourceTree = "<group>"; };
+		FCB40B5D2A17ED6C00C2A78E /* libboost_type_erasure.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_type_erasure.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_type_erasure.dylib; sourceTree = "<group>"; };
+		FCB40B5E2A17ED6C00C2A78E /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_system.a; sourceTree = "<group>"; };
+		FCB40B5F2A17ED6C00C2A78E /* libboost_chrono.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_chrono.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_chrono.dylib; sourceTree = "<group>"; };
+		FCB40B602A17ED6C00C2A78E /* libboost_stacktrace_addr2line.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_stacktrace_addr2line.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_stacktrace_addr2line.dylib; sourceTree = "<group>"; };
+		FCB40B612A17ED6C00C2A78E /* libboost_exception.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_exception.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_exception.a; sourceTree = "<group>"; };
+		FCB40B622A17ED6C00C2A78E /* libboost_date_time.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_date_time.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_date_time.a; sourceTree = "<group>"; };
+		FCB40B632A17ED6C00C2A78E /* libboost_log.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_log.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_log.a; sourceTree = "<group>"; };
+		FCB40B642A17ED6C00C2A78E /* libboost_wserialization.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_wserialization.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_wserialization.a; sourceTree = "<group>"; };
+		FCB40B652A17ED6C00C2A78E /* libboost_prg_exec_monitor.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_prg_exec_monitor.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_prg_exec_monitor.dylib; sourceTree = "<group>"; };
+		FCB40B662A17ED6C00C2A78E /* libboost_stacktrace_basic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_stacktrace_basic.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_stacktrace_basic.a; sourceTree = "<group>"; };
+		FCB40B672A17ED6C00C2A78E /* libboost_log_setup.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_log_setup.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_log_setup.a; sourceTree = "<group>"; };
+		FCB40B682A17ED6C00C2A78E /* libboost_serialization.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_serialization.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_serialization.dylib; sourceTree = "<group>"; };
+		FCB40B692A17ED6C00C2A78E /* libboost_program_options.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_program_options.a; path = ../libraries/boost_1_82_0/stage/lib/libboost_program_options.a; sourceTree = "<group>"; };
+		FCB40B6A2A17ED6C00C2A78E /* libboost_stacktrace_noop.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_stacktrace_noop.dylib; path = ../libraries/boost_1_82_0/stage/lib/libboost_stacktrace_noop.dylib; sourceTree = "<group>"; };
+		FCB40B6F2A17F05500C2A78E /* libraries */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libraries; path = ../libraries; sourceTree = "<group>"; };
+		FCB40B722A18094C00C2A78E /* libzstd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libzstd.dylib; path = ../libraries/boost_1_82_0/zstd/lib/libzstd.dylib; sourceTree = "<group>"; };
+		FCB40B732A18094D00C2A78E /* libzstd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzstd.a; path = ../libraries/boost_1_82_0/zstd/lib/libzstd.a; sourceTree = "<group>"; };
+		FCB40B742A18099900C2A78E /* libzstd.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libzstd.1.dylib; path = ../libraries/boost_1_82_0/zstd/lib/libzstd.1.dylib; sourceTree = "<group>"; };
+		FCB40B7C2A1957E300C2A78E /* libzstd.1.5.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libzstd.1.5.5.dylib; path = ../libraries/boost_1_82_0/zstd/lib/libzstd.1.5.5.dylib; sourceTree = "<group>"; };
+		FCDA62AB29FC309C004B7B62 /* pattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pattern.h; sourceTree = "<group>"; };
+		FCDA62AD29FC3EB2004B7B62 /* key_index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = key_index.h; sourceTree = "<group>"; };
+		FCDA62AF29FC3ECA004B7B62 /* metric_cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metric_cache.h; sourceTree = "<group>"; };
+		FCDA62B129FC3F05004B7B62 /* container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = container.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC8D277B29ECA6C900EBF892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9564C22A0DAEBB004CC7C3 /* authentication_ldap_sasl_client.so in Frameworks */,
+				FCB40B782A19578D00C2A78E /* libzstd.dylib in Frameworks */,
+				FCB40B6B2A17EE7C00C2A78E /* libboost_atomic.a in Frameworks */,
+				FCB40B6D2A17EEC900C2A78E /* libboost_atomic.dylib in Frameworks */,
+				FC9564C32A0DAEBB004CC7C3 /* authentication_fido_client.so in Frameworks */,
+				FCB40B702A17F07600C2A78E /* libboost_iostreams.dylib in Frameworks */,
+				FC9564C42A0DAEBB004CC7C3 /* authentication_oci_client.so in Frameworks */,
+				FC9564E82A0DB73E004CC7C3 /* libssl.dylib in Frameworks */,
+				FCB40B7D2A1957E400C2A78E /* libzstd.1.5.5.dylib in Frameworks */,
+				FC9564F02A0DB814004CC7C3 /* libcrypto.dylib in Frameworks */,
+				FCB40B772A19576E00C2A78E /* libzstd.a in Frameworks */,
+				FC9564ED2A0DB7E5004CC7C3 /* libmysqlcppconn.9.dylib in Frameworks */,
+				FCB40B6C2A17EEA800C2A78E /* libboost_iostreams.a in Frameworks */,
+				FCB40B7A2A1957E300C2A78E /* libzstd.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC85E70C2A015C8100F2A358 /* mdct */ = {
+			isa = PBXGroup;
+			children = (
+				FC85E7082A00B37500F2A358 /* dct.h */,
+				FC85E7002A00AE9000F2A358 /* mdct.h */,
+				FC85E6FE2A00ADD400F2A358 /* mdct.c */,
+			);
+			path = mdct;
+			sourceTree = "<group>";
+		};
+		FC85E7192A029FE300F2A358 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				FC9564FB2A150781004CC7C3 /* stl.h */,
+				FC9564FD2A150794004CC7C3 /* pairs.h */,
+				FC85E7282A02B69400F2A358 /* base.h */,
+				FC85E7172A029A2D00F2A358 /* comparators.h */,
+				FC85E7152A0299F600F2A358 /* streams.h */,
+				FC85E7202A02B47200F2A358 /* statistics.h */,
+				FC85E72A2A02B91900F2A358 /* geometry.h */,
+				FCA208812A0C10CB0029822B /* bfloat16.h */,
+				FCA208732A092C860029822B /* pack_bits.h */,
+				FCA2087B2A0C02250029822B /* simple_bitset.h */,
+				FC8D279E29EEE71000EBF892 /* simple_timer.h */,
+				FC4EBD6929FAFB1A00F554D7 /* value_index_t.h */,
+				FC85E6F82A00371300F2A358 /* k_indices_queue.h */,
+				FC85E7242A02B59200F2A358 /* stl_tests.cpp */,
+				FC85E7222A02B58B00F2A358 /* stl_tests.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		FC8D277529ECA6C900EBF892 = {
+			isa = PBXGroup;
+			children = (
+				FC9564F12A0DB829004CC7C3 /* libcrypto.1.1.dylib */,
+				FC9564EE2A0DB7FB004CC7C3 /* libmysqlcppconn.9.dylib */,
+				FC9564E92A0DB787004CC7C3 /* libssl.1.1.dylib */,
+				FC8D278029ECA6C900EBF892 /* vector */,
+				FC8D277F29ECA6C900EBF892 /* Products */,
+				FC9564B32A0DAD17004CC7C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8D277F29ECA6C900EBF892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8D277E29ECA6C900EBF892 /* vector */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8D278029ECA6C900EBF892 /* vector */ = {
+			isa = PBXGroup;
+			children = (
+				FCB40B2F2A17E43700C2A78E /* gzip.cpp */,
+				FC9564FF2A150A04004CC7C3 /* db */,
+				FC85E7192A029FE300F2A358 /* core */,
+				FC9564F92A1506C2004CC7C3 /* store */,
+				FC85E70C2A015C8100F2A358 /* mdct */,
+				FC8D279D29EDCC9C00EBF892 /* btree */,
+				FC9564F72A129594004CC7C3 /* hilbert.h */,
+				FC9564AF2A0D7631004CC7C3 /* multiword.h */,
+				FC8D278129ECA6C900EBF892 /* main.cpp */,
+				FC85E72C2A02BA5500F2A358 /* metadata.h */,
+				FCDA62AD29FC3EB2004B7B62 /* key_index.h */,
+				FC85E7342A06083E00F2A358 /* key_id_index.h */,
+				FC85E7362A06087B00F2A358 /* key_id_index.cpp */,
+				FC85E71E2A02B13000F2A358 /* key_finder.h */,
+				FC85E70D2A0166EB00F2A358 /* dim_exp.h */,
+				FCDA62AF29FC3ECA004B7B62 /* metric_cache.h */,
+				FC10EDFE29F96BC70042CFD2 /* rank_id.h */,
+				FC10EE0029F96F330042CFD2 /* rank.h */,
+				FC85E73C2A08504900F2A358 /* ranks.h */,
+				FCA208772A0A90ED0029822B /* ranked_vector.h */,
+				FCA2087D2A0C0DFF0029822B /* ranked_vector256.h */,
+				FCA208792A0AAD910029822B /* ranked_vector.cpp */,
+				FC09CB552A0D328500879964 /* ranked_vectors.h */,
+				FC9564F32A0EC5E8004CC7C3 /* traverser.h */,
+				FCDA62AB29FC309C004B7B62 /* pattern.h */,
+				FC10EDF029F806170042CFD2 /* float_index.h */,
+				FC85E7302A056A1F00F2A358 /* real_index.h */,
+				FC85E6F62A002C0200F2A358 /* sorts.h */,
+				FC85E72E2A0546F300F2A358 /* stat_key.h */,
+				FC10EDF229F806520042CFD2 /* slice.h */,
+				FC10EDF429F806A30042CFD2 /* slice.cpp */,
+				FC10EDFC29F86EB60042CFD2 /* slice_cardinality.h */,
+				FC10EDF629F80AED0042CFD2 /* slices.h */,
+				FC10EDF829F80B010042CFD2 /* slices.cpp */,
+				FC85E7382A07241F00F2A358 /* slices_finder.h */,
+				FC85E73A2A07293200F2A358 /* slices_finder.cpp */,
+			);
+			path = vector;
+			sourceTree = "<group>";
+		};
+		FC8D279D29EDCC9C00EBF892 /* btree */ = {
+			isa = PBXGroup;
+			children = (
+				FC8D279429EDCC8100EBF892 /* btree_container.h */,
+				FC8D279029EDCC8100EBF892 /* btree_map.h */,
+				FC8D279229EDCC8100EBF892 /* btree_set.h */,
+				FC8D279329EDCC8100EBF892 /* btree.h */,
+				FC8D278F29EDCC8100EBF892 /* safe_btree_map.h */,
+				FC8D279129EDCC8100EBF892 /* safe_btree_set.h */,
+				FC8D279529EDCC8100EBF892 /* safe_btree.h */,
+			);
+			path = btree;
+			sourceTree = "<group>";
+		};
+		FC9564B32A0DAD17004CC7C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCB40B7C2A1957E300C2A78E /* libzstd.1.5.5.dylib */,
+				FCB40B742A18099900C2A78E /* libzstd.1.dylib */,
+				FCB40B732A18094D00C2A78E /* libzstd.a */,
+				FCB40B722A18094C00C2A78E /* libzstd.dylib */,
+				FCB40B6F2A17F05500C2A78E /* libraries */,
+				FCB40B4B2A17ED6C00C2A78E /* libboost_atomic.a */,
+				FCB40B512A17ED6C00C2A78E /* libboost_atomic.dylib */,
+				FCB40B472A17ED6C00C2A78E /* libboost_chrono.a */,
+				FCB40B5F2A17ED6C00C2A78E /* libboost_chrono.dylib */,
+				FCB40B492A17ED6C00C2A78E /* libboost_container.a */,
+				FCB40B3B2A17ED6B00C2A78E /* libboost_container.dylib */,
+				FCB40B4A2A17ED6C00C2A78E /* libboost_context.a */,
+				FCB40B432A17ED6C00C2A78E /* libboost_context.dylib */,
+				FCB40B4C2A17ED6C00C2A78E /* libboost_contract.a */,
+				FCB40B5C2A17ED6C00C2A78E /* libboost_contract.dylib */,
+				FCB40B3F2A17ED6C00C2A78E /* libboost_coroutine.a */,
+				FCB40B532A17ED6C00C2A78E /* libboost_coroutine.dylib */,
+				FCB40B622A17ED6C00C2A78E /* libboost_date_time.a */,
+				FCB40B542A17ED6C00C2A78E /* libboost_date_time.dylib */,
+				FCB40B612A17ED6C00C2A78E /* libboost_exception.a */,
+				FCB40B522A17ED6C00C2A78E /* libboost_filesystem.a */,
+				FCB40B552A17ED6C00C2A78E /* libboost_filesystem.dylib */,
+				FCB40B502A17ED6C00C2A78E /* libboost_graph.a */,
+				FCB40B3D2A17ED6B00C2A78E /* libboost_graph.dylib */,
+				FCB40B372A17ED6B00C2A78E /* libboost_iostreams.a */,
+				FCB40B4D2A17ED6C00C2A78E /* libboost_iostreams.dylib */,
+				FCB40B672A17ED6C00C2A78E /* libboost_log_setup.a */,
+				FCB40B342A17ED6B00C2A78E /* libboost_log_setup.dylib */,
+				FCB40B632A17ED6C00C2A78E /* libboost_log.a */,
+				FCB40B572A17ED6C00C2A78E /* libboost_log.dylib */,
+				FCB40B592A17ED6C00C2A78E /* libboost_numpy310.a */,
+				FCB40B392A17ED6B00C2A78E /* libboost_numpy310.dylib */,
+				FCB40B3E2A17ED6B00C2A78E /* libboost_prg_exec_monitor.a */,
+				FCB40B652A17ED6C00C2A78E /* libboost_prg_exec_monitor.dylib */,
+				FCB40B692A17ED6C00C2A78E /* libboost_program_options.a */,
+				FCB40B5B2A17ED6C00C2A78E /* libboost_program_options.dylib */,
+				FCB40B382A17ED6B00C2A78E /* libboost_python310.a */,
+				FCB40B412A17ED6C00C2A78E /* libboost_python310.dylib */,
+				FCB40B482A17ED6C00C2A78E /* libboost_random.a */,
+				FCB40B422A17ED6C00C2A78E /* libboost_random.dylib */,
+				FCB40B452A17ED6C00C2A78E /* libboost_regex.a */,
+				FCB40B4E2A17ED6C00C2A78E /* libboost_regex.dylib */,
+				FCB40B5A2A17ED6C00C2A78E /* libboost_serialization.a */,
+				FCB40B682A17ED6C00C2A78E /* libboost_serialization.dylib */,
+				FCB40B322A17ED6B00C2A78E /* libboost_stacktrace_addr2line.a */,
+				FCB40B602A17ED6C00C2A78E /* libboost_stacktrace_addr2line.dylib */,
+				FCB40B662A17ED6C00C2A78E /* libboost_stacktrace_basic.a */,
+				FCB40B442A17ED6C00C2A78E /* libboost_stacktrace_basic.dylib */,
+				FCB40B462A17ED6C00C2A78E /* libboost_stacktrace_noop.a */,
+				FCB40B6A2A17ED6C00C2A78E /* libboost_stacktrace_noop.dylib */,
+				FCB40B5E2A17ED6C00C2A78E /* libboost_system.a */,
+				FCB40B362A17ED6B00C2A78E /* libboost_system.dylib */,
+				FCB40B352A17ED6B00C2A78E /* libboost_test_exec_monitor.a */,
+				FCB40B332A17ED6B00C2A78E /* libboost_thread.a */,
+				FCB40B582A17ED6C00C2A78E /* libboost_thread.dylib */,
+				FCB40B312A17ED6B00C2A78E /* libboost_timer.a */,
+				FCB40B402A17ED6C00C2A78E /* libboost_timer.dylib */,
+				FCB40B3A2A17ED6B00C2A78E /* libboost_type_erasure.a */,
+				FCB40B5D2A17ED6C00C2A78E /* libboost_type_erasure.dylib */,
+				FCB40B4F2A17ED6C00C2A78E /* libboost_unit_test_framework.a */,
+				FCB40B562A17ED6C00C2A78E /* libboost_unit_test_framework.dylib */,
+				FCB40B642A17ED6C00C2A78E /* libboost_wserialization.a */,
+				FCB40B3C2A17ED6B00C2A78E /* libboost_wserialization.dylib */,
+				FC9564D12A0DAF41004CC7C3 /* libcrypto.1.1.dylib */,
+				FC9564CF2A0DAF41004CC7C3 /* libfido2.1.8.0.dylib */,
+				FC9564D02A0DAF41004CC7C3 /* libfido2.1.dylib */,
+				FC9564D22A0DAF41004CC7C3 /* libmysqlcppconn.9.8.0.33.dylib */,
+				FC9564D32A0DAF41004CC7C3 /* libmysqlcppconn.9.dylib */,
+				FC9564CD2A0DAF41004CC7C3 /* libmysqlcppconn8.2.8.0.33.dylib */,
+				FC9564CE2A0DAF41004CC7C3 /* libmysqlcppconn8.2.dylib */,
+				FC9564D42A0DAF41004CC7C3 /* libssl.1.1.dylib */,
+				FC9564C92A0DAF16004CC7C3 /* libcrypto.dylib */,
+				FC9564C52A0DAEE3004CC7C3 /* libfido2.dylib */,
+				FC9564C62A0DAEE3004CC7C3 /* libssl.dylib */,
+				FC9564C02A0DAEBB004CC7C3 /* authentication_fido_client.so */,
+				FC9564BF2A0DAEBB004CC7C3 /* authentication_ldap_sasl_client.so */,
+				FC9564C12A0DAEBB004CC7C3 /* authentication_oci_client.so */,
+				FC9564BD2A0DAE92004CC7C3 /* libmysqlcppconn-static.a */,
+				FC9564BB2A0DAE5A004CC7C3 /* libmysqlcppconn.dylib */,
+				FC9564B62A0DAD49004CC7C3 /* libmysqlcppconn8.dylib */,
+				FC9564B42A0DAD17004CC7C3 /* libmysqlcppconn8-static.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC9564F92A1506C2004CC7C3 /* store */ = {
+			isa = PBXGroup;
+			children = (
+				FC85E70F2A01674A00F2A358 /* generators.h */,
+				FCDA62B129FC3F05004B7B62 /* container.h */,
+				FC9565022A157BAB004CC7C3 /* fixed_vector.h */,
+				FCB40B2D2A16CB7300C2A78E /* vector_key.h */,
+				FC9565042A16627B004CC7C3 /* block.h */,
+				FC95650A2A167245004CC7C3 /* file_mapper_.cpp */,
+				FC95650B2A167245004CC7C3 /* file_mapper_.h */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
+		FC9564FF2A150A04004CC7C3 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				FC9564B12A0D9D30004CC7C3 /* mysql.h */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FC8D278C29EDCBC500EBF892 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB40B2E2A16CB7300C2A78E /* vector_key.h in Headers */,
+				FC85E7042A00AE9000F2A358 /* mdct.h in Headers */,
+				FC9564F82A129594004CC7C3 /* hilbert.h in Headers */,
+				FC85E6F72A002C0200F2A358 /* sorts.h in Headers */,
+				FC85E7312A056A1F00F2A358 /* real_index.h in Headers */,
+				FC9564F42A0EC5E8004CC7C3 /* traverser.h in Headers */,
+				FC95650D2A167245004CC7C3 /* file_mapper_.h in Headers */,
+				FC85E71F2A02B13000F2A358 /* key_finder.h in Headers */,
+				FC9565032A157BAB004CC7C3 /* fixed_vector.h in Headers */,
+				FC4EBD6A29FAFB1A00F554D7 /* value_index_t.h in Headers */,
+				FC85E7232A02B58B00F2A358 /* stl_tests.h in Headers */,
+				FCA208782A0A90ED0029822B /* ranked_vector.h in Headers */,
+				FC85E7292A02B69400F2A358 /* base.h in Headers */,
+				FC9564B02A0D7631004CC7C3 /* multiword.h in Headers */,
+				FCA2087E2A0C0DFF0029822B /* ranked_vector256.h in Headers */,
+				FCDA62B229FC3F05004B7B62 /* container.h in Headers */,
+				FC10EDF129F806170042CFD2 /* float_index.h in Headers */,
+				FC85E72F2A0546F300F2A358 /* stat_key.h in Headers */,
+				FC8D279829EDCC8100EBF892 /* safe_btree_set.h in Headers */,
+				FC8D279729EDCC8100EBF892 /* btree_map.h in Headers */,
+				FC85E7102A01674A00F2A358 /* generators.h in Headers */,
+				FCDA62B029FC3ECA004B7B62 /* metric_cache.h in Headers */,
+				FC9565052A16627B004CC7C3 /* block.h in Headers */,
+				FC8D279929EDCC8100EBF892 /* btree_set.h in Headers */,
+				FC85E7212A02B47200F2A358 /* statistics.h in Headers */,
+				FC85E70E2A0166EB00F2A358 /* dim_exp.h in Headers */,
+				FCDA62AE29FC3EB2004B7B62 /* key_index.h in Headers */,
+				FC9564FE2A150794004CC7C3 /* pairs.h in Headers */,
+				FC09CB562A0D328500879964 /* ranked_vectors.h in Headers */,
+				FCA208822A0C10CB0029822B /* bfloat16.h in Headers */,
+				FC85E6F92A00371300F2A358 /* k_indices_queue.h in Headers */,
+				FC10EDF729F80AED0042CFD2 /* slices.h in Headers */,
+				FC85E7392A07241F00F2A358 /* slices_finder.h in Headers */,
+				FCDA62AC29FC309C004B7B62 /* pattern.h in Headers */,
+				FC85E72D2A02BA5500F2A358 /* metadata.h in Headers */,
+				FC8D279629EDCC8100EBF892 /* safe_btree_map.h in Headers */,
+				FC8D279A29EDCC8100EBF892 /* btree.h in Headers */,
+				FC85E7352A06083E00F2A358 /* key_id_index.h in Headers */,
+				FC9564B22A0D9D30004CC7C3 /* mysql.h in Headers */,
+				FC10EE0129F96F330042CFD2 /* rank.h in Headers */,
+				FC85E73D2A08504900F2A358 /* ranks.h in Headers */,
+				FC10EDFF29F96BC70042CFD2 /* rank_id.h in Headers */,
+				FC85E7092A00B37500F2A358 /* dct.h in Headers */,
+				FC8D279C29EDCC8100EBF892 /* safe_btree.h in Headers */,
+				FC10EDF329F806520042CFD2 /* slice.h in Headers */,
+				FC85E7162A0299F600F2A358 /* streams.h in Headers */,
+				FC10EDFD29F86EB70042CFD2 /* slice_cardinality.h in Headers */,
+				FCA2087C2A0C02250029822B /* simple_bitset.h in Headers */,
+				FC8D279F29EEE71000EBF892 /* simple_timer.h in Headers */,
+				FCA208742A092C860029822B /* pack_bits.h in Headers */,
+				FC85E72B2A02B91900F2A358 /* geometry.h in Headers */,
+				FC85E7182A029A2D00F2A358 /* comparators.h in Headers */,
+				FC9564FC2A150781004CC7C3 /* stl.h in Headers */,
+				FC8D279B29EDCC8100EBF892 /* btree_container.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FC8D277D29ECA6C900EBF892 /* vector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8D278529ECA6C900EBF892 /* Build configuration list for PBXNativeTarget "vector" */;
+			buildPhases = (
+				FC8D278C29EDCBC500EBF892 /* Headers */,
+				FC8D277A29ECA6C900EBF892 /* Sources */,
+				FC8D277B29ECA6C900EBF892 /* Frameworks */,
+				FC8D277C29ECA6C900EBF892 /* CopyFiles */,
+				FC9564B92A0DAD49004CC7C3 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vector;
+			productName = vector;
+			productReference = FC8D277E29ECA6C900EBF892 /* vector */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC8D277629ECA6C900EBF892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FC8D277D29ECA6C900EBF892 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FC8D277929ECA6C900EBF892 /* Build configuration list for PBXProject "vector" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC8D277529ECA6C900EBF892;
+			productRefGroup = FC8D277F29ECA6C900EBF892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8D277D29ECA6C900EBF892 /* vector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC8D277A29ECA6C900EBF892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC85E6FF2A00ADD400F2A358 /* mdct.c in Sources */,
+				FCA2087A2A0AAD910029822B /* ranked_vector.cpp in Sources */,
+				FC10EDF929F80B010042CFD2 /* slices.cpp in Sources */,
+				FCB40B302A17E43700C2A78E /* gzip.cpp in Sources */,
+				FC85E7252A02B59200F2A358 /* stl_tests.cpp in Sources */,
+				FC95650C2A167245004CC7C3 /* file_mapper_.cpp in Sources */,
+				FC85E73B2A07293200F2A358 /* slices_finder.cpp in Sources */,
+				FC85E7372A06087B00F2A358 /* key_id_index.cpp in Sources */,
+				FC8D278229ECA6C900EBF892 /* main.cpp in Sources */,
+				FC10EDF529F806A30042CFD2 /* slice.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC8D278329ECA6C900EBF892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC8D278429ECA6C900EBF892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = "fast -ffast-math";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC8D278629ECA6C900EBF892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RVD7V5Y97Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/paulsenzee/Desktop/Projects/mysql-connector-c++/lib64",
+					/Users/paulsenzee/Desktop/Projects/libraries/boost_1_82_0/stage/lib,
+				);
+				HEADER_SEARCH_PATHS = (
+					/Users/paulsenzee/Desktop/Projects/libraries/boost_1_82_0,
+					"/Users/paulsenzee/Desktop/Projects/mysql-connector-c++/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/paulsenzee/Desktop/Projects/mysql-connector-c++/lib64",
+					/Users/paulsenzee/Desktop/Projects/libraries/boost_1_82_0/stage/lib,
+					/Users/paulsenzee/Desktop/Projects/libraries/boost_1_82_0/zstd/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC8D278729ECA6C900EBF892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RVD7V5Y97Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/paulsenzee/Desktop/Projects/mysql-connector-c++/lib64",
+					/Users/paulsenzee/Desktop/Projects/libraries/boost_1_82_0/stage/lib,
+				);
+				HEADER_SEARCH_PATHS = (
+					/Users/paulsenzee/Desktop/Projects/libraries/boost_1_82_0,
+					"/Users/paulsenzee/Desktop/Projects/mysql-connector-c++/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/paulsenzee/Desktop/Projects/mysql-connector-c++/lib64",
+					/Users/paulsenzee/Desktop/Projects/libraries/boost_1_82_0/stage/lib,
+					/Users/paulsenzee/Desktop/Projects/libraries/boost_1_82_0/zstd/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8D277929ECA6C900EBF892 /* Build configuration list for PBXProject "vector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8D278329ECA6C900EBF892 /* Debug */,
+				FC8D278429ECA6C900EBF892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8D278529ECA6C900EBF892 /* Build configuration list for PBXNativeTarget "vector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8D278629ECA6C900EBF892 /* Debug */,
+				FC8D278729ECA6C900EBF892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC8D277629ECA6C900EBF892 /* Project object */;
+}

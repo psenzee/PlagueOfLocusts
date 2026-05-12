@@ -1,0 +1,78 @@
+2023-06-29
+1024,16,3,1*1024*1024 average diff 477.95 magnitude 2238.15 zeros  14/1000
+ 128,16,3,8*1024*1024 average diff 170.31 magnitude 1032.17 zeros 204/1000
+ 128,32,3,4*1024*1024 average diff 175.57 magnitude 1128.24 zeros 223/1000
+  64,32,3,4*1024*1024 average diff 139.06 magnitude  747.26 zeros 240/1000 [av dcounts are higher than 128]
+  64,16,3,4*1024*1024 average diff 139.06 magnitude  747.26 zeros 240/1000
+ 128,32,3,1*1024*1024 average diff 198.54 magnitude 1221.24 zeros 284/1000
+ 128,16,3,1*1024*1024 average diff 198.54 magnitude 1221.24 zeros 284/1000 dcount 12.99 [partition type >> 2]
+ 128,16,3,1*1024*1024 average diff 261.57 magnitude 1221.24 zeros 190/1000 dcount 10.14 [partition type >> 1]
+  64,32,3,1*1024*1024 average diff 142.17 magnitude  851.00 zeros 279/1000
+  64,16,3,1*1024*1024 average diff 142.17 magnitude  851.00 zeros 279/1000
+  32,16,3,1*1024*1024 seg fault ?
+  
+2023-06-30
+ 128, 2,1*1024^2 average diff 108.68 magnitude 1221.24 zeros 438/1000 dcount     41.31 // signs in bit_encode -- actually worse?
+ 128, 2,1*1024^2 average diff 137.26 magnitude 1221.24 zeros 431/1000 dcount     23.56 // fixed? signs in bit_encode???
+ 128, 2,1*1024^2 average diff 107.45 magnitude 1221.24 zeros 438/1000 dcount     41.28
+ 128, 2,1*1024^2 average diff 108.93 magnitude 1221.24 zeros 438/1000 dcount     40.29 // no intersection -- it must be broken
+ 128, 2,1*1024^2 average diff  46.55 magnitude 1221.24 zeros 682/1000 dcount   2382.75  // this is diff <= minimum.first
+ 128, 3,1*1024^2 average diff 144.33 magnitude 1221.24 exact 367/1000 dcount     31.92
+ 128, 4,1*1024^2 average diff 123.07 magnitude 1221.24 exact 384/1000 dcount     70.64
+ 128, 8,1*1024^2 average diff  94.44 magnitude 1221.24 exact 428/1000 dcount    598.17
+ 128, 8,1*1024^2 average diff  97.16 magnitude 1221.24 zeros 419/1000 dcount    597.77 // intersection changes
+ 128, 8,1*1024^2 average diff  98.37 magnitude 1221.24 zeros 414/1000 dcount    597.16  // no intersection
+ 128,16,1*1024^2 average diff  76.91 magnitude 1221.24 exact 460/1000 dcount   5472.82
+ 128,32,1*1024^2 average diff  66.31 magnitude 1221.24 exact 490/1000 dcount  53584.46
+ 128,64,1*1024^2 average diff  56.90 magnitude 1221.24 exact 536/1000 dcount 613650.38
+ 
+2023-07-02 * these are promising *
+ 128, 2,1*1024^2 average diff  46.55 magnitude 1221.24 zeros 682/1000 dcount 2382.75 // intersections disabled
+ 128, 2,1*1024^2 average diff  46.55 magnitude 1221.24 zeros 682/1000 dcount 2382.75 // intersections disabled, early cut-off at 0.0 
+ 128, 2,1*1024^2 average diff  46.55 magnitude 1221.24 zeros 682/1000 dcount 2382.75 // intersections disabled, early cut-off at 0.0001
+ 128, 2,1*1024^2 average diff  46.55 magnitude 1221.24 zeros 682/1000 dcount 2382.75 // intersections disabled, early cut-off at 0.01
+ 128, 2,1*1024^2 average diff  46.55 magnitude 1221.24 zeros 682/1000 dcount 2576.35 // intersections re-enabled (update on low diff OR high intersections)
+ 128, 2,1*1024^2 average diff  65.35 magnitude 1221.24 zeros 552/1000 dcount 442.44  // intersections re-enabled (update on low diff AND high intersections)
+ 128, 2,1*1024^2 average diff  46.55 magnitude 1221.24 zeros 682/1000 dcount 2382.75 // intersections re-enabled (update on low diff AND intersections >= 1)
+ 128, 2,1*1024^2 average diff 150.77 magnitude 1221.24 zeros 431/1000 dcount 99.11   // intersections re-enabled (update on low diff AND intersections >= 2)
+ 128, 2,1*1024^2 average diff 150.35 magnitude 1221.24 zeros 431/1000 dcount 107.45  // full exp-norm range & intersections re-enabled (update on low diff AND intersections >= 2) 
+ 128, 2,1*1024^2 average diff  46.57 magnitude 1221.24 zeros 680/1000 dcount 2391.24 // full exp-norm range & intersections re-enabled (update on low diff AND intersections >= 1)
+ 128, 8,1*1024^2 average diff  77.74 magnitude 1221.24 zeros 495/1000 dcount 710.85  // intersections re-enabled (update on low diff AND intersections >= 2)
+
+2023-07-03
+ 128, 1,1*1024^2 average diff  61.89 magnitude 1221.24 zeros 621/1000 dcount 1838.83
+ 128, 2,1*1024^2 average diff  46.55 magnitude 1221.24 zeros 682/1000 dcount 2382.75 // new baseline-intersections disabled 
+ 128, 3,1*1024^2 average diff  86.17 magnitude 1221.24 zeros 556/1000 dcount   68.34
+ 
+2023-07-04
+ 128, 2,1*1024^2 average diff  46.55 magnitude 1221.24 zeros 682/1000 dcount 2382.75 // new baseline-intersections disabled 
+ 128, 2,1*1024^2 average diff 110.37 magnitude 1221.24 zeros 437/1000 dcount   39.97 // commented out `limit = minimum.first;`
+ 128, 3,1*1024^2 average diff 144.44 magnitude 1221.24 zeros 367/1000 dcount   31.55 // commented out `limit = minimum.first;`
+ 128, 2,1*1024^2 average diff  46.55 magnitude 1221.24 zeros 682/1000 dcount 3703.33 // always `update = true`, meaning we always do a full distance for every vector on this interval.  Super interesting .. 682 is the maximum count at this point
+ 128, 2,1*1024^2 average diff  62.43 magnitude 1221.24 zeros 559/1000 dcount 1223.22 // two pass algorithm
+ 128, 2,1*1024^2 average diff  46.55 magnitude 1221.24 zeros 682/1000 dcount 2403.83 // two pass - fixed
+ 128, 2,1*1024^2 average diff  44.67 magnitude 1221.24 zeros 716/1000 dcount 2402.74 // fixed a small issue [new baseline]
+ 128, 2,1*1024^2 average diff  79.66 magnitude 3663.71 zeros 785/1000 dcount 2615.00 // set MAX_RANDOM to 15000 | zcount per 1.00:1/0 100.00:6/2 1000.00:118/18 10000.00:657/194 100000.00:3/1 
+ 128, 2,1*1024^2 average diff   1.31 magnitude   36.64 zeros 736/1000 dcount 2475.33 // set MAX_RANDOM to 150   | zcount per 1.00:8/1 10.00:115/21 100.00:613/238 1000.00:0/4
+ 128, 2,1*1024^2 average diff   0.07 magnitude    3.66 zeros 792/1000 dcount 2649.90 // set MAX_RANDOM to 15    | zcount per 1.00:124/21 10.00:665/186 100.00:3/1
+ 128, 2,1*1024^2 average diff   0.01 magnitude    0.37 zeros 751/1000 dcount 2444.25 // set MAX_RANDOM to 1.5   | zcount per 1.00:749/247 10.00:2/2 
+
+2023-07-06
+  16, 2,16*1024^2 average diff  1.09 magnitude  188.70 zeros 979/1000 dcount 91431.75 | zcount per 1.00:4/0 10.00:70/1 100.00:409/6 1000.00:485/11 10000.00:11/3 100000.00:0/0 
+  16, 2, 1*1024^2 average diff  4.02 magnitude  265.66 zeros 959/1000 dcount 7363.79  | zcount per 1.00:4/0 10.00:42/1 100.00:348/8 1000.00:523/28 10000.00:42/4 100000.00:0/0 
+  16, 3, 1*1024^2 average diff  4.79 magnitude  265.66 zeros 881/1000 dcount 792.85   | zcount per 1.00:1/3 10.00:11/32 100.00:307/49 1000.00:521/30 10000.00:41/5 100000.00:0/0 
+  
+2023-07-08
+ 128, 1, 1*1024^2 average diff 61.89 magnitude 1221.24 zeros 621/1000 dcount 1837.02  | 5000 zcount per 1.00:0/1 10.00:1/1 100.00:23/16 1000.00:269/133 10000.00:328/228
+ 128, 2, 1*1024^2 average diff 44.67 magnitude 1221.24 zeros 716/1000 dcount 2402.74  | 5000 zcount per 1.00:1/0 10.00:2/0 100.00:36/3  1000.00:306/96  10000.00:371/185
+ 128, 3, 1*1024^2 average diff 39.11 magnitude 1221.24 zeros 768/1000 dcount 77.21    | 5000 zcount per 1.00:1/0 10.00:2/0 100.00:37/2  1000.00:254/148 10000.00:474/82
+ 128, 4, 1*1024^2 average diff 31.61 magnitude 1221.24 zeros 765/1000 dcount 101.10   | 5000 zcount per 1.00:1/0 10.00:2/0 100.00:32/7  1000.00:246/156 10000.00:484/72
+ 128, 5, 1*1024^2 average diff 29.98 magnitude 1221.24 zeros 755/1000 dcount 139.59   | 5000 zcount per 1.00:1/0 10.00:2/0 100.00:30/9  1000.00:242/160 10000.00:480/76
+ 128, 6, 1*1024^2 average diff 29.92 magnitude 1221.24 zeros 747/1000 dcount 192.50   | 5000 zcount per 1.00:1/0 10.00:2/0 100.00:30/9  1000.00:241/161 10000.00:473/83
+ 128, 7, 1*1024^2 average diff 30.54 magnitude 1221.24 zeros 735/1000 dcount 257.36   | 5000 zcount per 1.00:1/0 10.00:2/0 100.00:30/9  1000.00:240/162 10000.00:462/94
+ 128, 8, 1*1024^2 average diff 31.36 magnitude 1221.24 zeros 723/1000 dcount 331.40   | 5000 zcount per 1.00:1/0 10.00:2/0 100.00:28/11 1000.00:235/167 10000.00:457/99
+ 128, 1, 8*1024^2 average diff 38.66 magnitude 1032.17 zeros 703/1000 dcount 14374.08 | 5000 zcount per 1.00:0/0 10.00:2/2 100.00:42/13 1000.00:370/108 10000.00:289/174
+ 128, 2, 8*1024^2 average diff 27.61 magnitude 1032.17 zeros 772/1000 dcount 17297.88 | 5000 zcount per 1.00:0/0 10.00:3/1 100.00:47/8  1000.00:393/85  10000.00:329/134
+ 128, 3, 8*1024^2 average diff 11.75 magnitude 1032.17 zeros 849/1000 dcount 265.30   | 5000 zcount per 1.00:0/0 10.00:3/1 100.00:33/22 1000.00:392/86  10000.00:421/42
+ 128, 4, 8*1024^2 average diff 25.56 magnitude 1032.17 zeros 769/1000 dcount 1714.97  | 5000 zcount per 1.00:0/0 10.00:2/2 100.00:33/22 1000.00:358/120 10000.00:376/87
+ 128, 5, 8*1024^2 average diff 34.37 magnitude 1032.17 zeros 708/1000 dcount 2384.20  | 5000 zcount per 1.00:0/0 10.00:2/2 100.00:32/23 1000.00:323/155 10000.00:351/112
